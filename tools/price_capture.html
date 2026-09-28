@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Menu price capture</title>
+<style>
+:root{--ink:#14161a;--muted:#6b7280;--line:#dfe3e8;--bg:#f5f6f8;--card:#fff;
+      --mkt:#1f4e79;--own:#c55a11;--ok:#2e7d32;--warn:#b03a2e}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:640px;margin:0 auto;padding:14px 14px 120px}
+h1{font-size:19px;margin:6px 0 2px}
+.sub{color:var(--muted);font-size:13px;margin-bottom:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin-bottom:12px}
+.card h2{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:0 0 10px}
+label{display:block;font-size:12.5px;color:var(--muted);margin:9px 0 3px;font-weight:600}
+input,select,textarea{width:100%;padding:11px 12px;font-size:16px;border:1px solid var(--line);
+  border-radius:9px;background:#fff;font-family:inherit}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--mkt);outline-offset:-1px}
+.row{display:flex;gap:9px}.row>*{flex:1}
+.prices{display:grid;grid-template-columns:repeat(5,1fr);gap:7px}
+.prices input{padding:11px 4px;text-align:center;font-variant-numeric:tabular-nums}
+button{font:inherit;font-weight:600;border:0;border-radius:10px;padding:13px 16px;cursor:pointer}
+.primary{background:var(--mkt);color:#fff;width:100%;font-size:17px}
+.primary:active{opacity:.85}
+.ghost{background:#eceef1;color:var(--ink)}
+.danger{background:#fbe9e7;color:var(--warn)}
+.bar{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid var(--line);
+  padding:9px 12px calc(9px + env(safe-area-inset-bottom));display:flex;gap:7px;align-items:center}
+.bar button{padding:11px 12px;font-size:14px;white-space:nowrap;flex:0 0 auto}
+.bar .count{font-weight:700;font-size:14px;flex:1 1 auto;min-width:0;overflow:hidden}
+.bar .count span{color:var(--muted);font-weight:400;font-size:12px;display:block;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pill{display:inline-block;padding:3px 9px;border-radius:11px;font-size:11.5px;font-weight:700;
+  letter-spacing:.04em;text-transform:uppercase}
+.pill.mkt{background:#e8f0f7;color:var(--mkt)}.pill.own{background:#fdf1e6;color:var(--own)}
+.hide{display:none}
+.log{max-height:210px;overflow:auto;font-size:13px}
+.log div{padding:7px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:10px}
+.log div:last-child{border:0}
+.log .n{font-variant-numeric:tabular-nums;color:var(--muted);white-space:nowrap}
+.hint{font-size:12px;color:var(--muted);margin-top:6px;line-height:1.4}
+.warn{background:#fdf6ec;border:1px solid #eadcbf;border-radius:9px;padding:10px 12px;font-size:13px;margin-top:10px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Menu price capture</h1>
+  <div class="sub">Matched item pricing across platforms. Saves to this device as you go.</div>
+
+  <!-- ── session ── -->
+  <div class="card">
+    <h2>Session</h2>
+    <div class="row">
+      <div><label>Collector</label><input id="collector" placeholder="your name"></div>
+      <div><label>Date</label><input id="sdate" type="date"></div>
+    </div>
+    <div class="row">
+      <div><label>City</label>
+        <select id="city">
+          <option value="">select…</option>
+          <option>Delhi NCR</option>
+          <option>Bangalore</option>
+        </select></div>
+      <div><label>Pincode</label><input id="pincode" inputmode="numeric" placeholder="122002"></div>
+    </div>
+    <label>Collection window</label>
+    <input id="slot" placeholder="15:00-17:00 off peak">
+    <div class="hint">Hold pincode and time slot constant across both cities. If they differ,
+      record it here so it can be controlled for later.</div>
+  </div>
+
+  <!-- ── platform ── -->
+  <div class="card">
+    <h2>Platform</h2>
+    <select id="platform">
+      <option value="">select…</option>
+      <optgroup label="Marketplace (capture 5 restaurant prices)">
+        <option data-type="marketplace">Zomato</option>
+        <option data-type="marketplace">Swiggy</option>
+      </optgroup>
+      <optgroup label="Owned kitchen (single price)">
+        <option data-type="owned_kitchen">Bistro</option>
+        <option data-type="owned_kitchen">SNACC</option>
+        <option data-type="owned_kitchen">Zepto Cafe</option>
+      </optgroup>
+    </select>
+    <div id="ptype" class="hint"></div>
+  </div>
+
+  <!-- ── item ── -->
+  <div class="card">
+    <h2>Item</h2>
+    <div class="row">
+      <div><label>Matched ID</label><input id="mid" inputmode="numeric" placeholder="1"></div>
+      <div><label>Category</label>
+        <select id="cat">
+          <option value="">select…</option>
+          <option>snack</option><option>beverage</option>
+          <option>meal</option><option>dessert</option>
+        </select></div>
+    </div>
+    <label>Item name, as shown in the app</label>
+    <input id="iname" placeholder="Masala Dosa" list="known" autocomplete="off">
+    <datalist id="known"></datalist>
+    <div class="hint" id="matchhint">The same dish must carry the same matched ID on every
+      platform, or the item fixed effects model has nothing to hold constant. Type a name you
+      have already captured and the ID fills itself.</div>
+
+    <div id="mktbox" class="hide">
+      <label>Prices from the first five restaurants serving it</label>
+      <div class="prices">
+        <input id="p1" inputmode="decimal" placeholder="1"><input id="p2" inputmode="decimal" placeholder="2">
+        <input id="p3" inputmode="decimal" placeholder="3"><input id="p4" inputmode="decimal" placeholder="4">
+        <input id="p5" inputmode="decimal" placeholder="5">
+      </div>
+      <div class="hint">Default listing order, no reordering or filtering. Fewer than five means
+        the row is excluded, but capture what you found and flag it below.</div>
+    </div>
+
+    <div id="ownbox" class="hide">
+      <label>List price</label><input id="p0" inputmode="decimal" placeholder="₹">
+    </div>
+
+    <div class="row">
+      <div><label>Discounted price</label><input id="disc" inputmode="decimal" placeholder="blank if none"></div>
+      <div><label>Promised minutes</label><input id="mins" inputmode="numeric" placeholder="10"></div>
+    </div>
+    <div class="row">
+      <div><label>Delivery fee</label><input id="dfee" inputmode="decimal" placeholder="₹"></div>
+      <div><label>Platform fee</label><input id="pfee" inputmode="decimal" placeholder="₹"></div>
+    </div>
+    <label>Exclusion flag</label>
+    <select id="flag">
+      <option value="">none, include this row</option>
+      <option value="fewer_than_5">fewer than five restaurants</option>
+      <option value="ambiguous_match">match needed a judgement call</option>
+      <option value="unavailable">item unavailable or out of stock</option>
+      <option value="combo">combo or meal box</option>
+    </select>
+    <label>Notes</label><textarea id="notes" rows="2" placeholder="optional"></textarea>
+    <div class="warn" id="dupwarn" style="display:none"></div>
+  </div>
+
+  <button class="primary" onclick="save()">Save row</button>
+
+  <div class="card" style="margin-top:12px">
+    <h2>Captured this session</h2>
+    <div class="log" id="log"><div style="color:var(--muted)">nothing yet</div></div>
+  </div>
+</div>
+
+<div class="bar">
+  <div class="count"><span id="n" style="display:inline;color:inherit;font-weight:700;font-size:15px">0</span> rows
+    <span id="brk"></span></div>
+  <button class="ghost" onclick="undo()">Undo</button>
+  <button class="ghost" onclick="exportCsv()">Export</button>
+  <button class="danger" onclick="clearAll()">Clear</button>
+</div>
+
+<script>
+const KEY = "menu_capture_v1";
+const $ = id => document.getElementById(id);
+let rows = [];
+
+try { rows = JSON.parse(localStorage.getItem(KEY) || "[]"); } catch(e) { rows = []; }
+
+// restore session header so a reload does not lose context
+["collector","sdate","city","pincode","slot","platform"].forEach(k => {
+  const v = localStorage.getItem(KEY + "_" + k);
+  if (v) $(k).value = v;
+  $(k).addEventListener("change", () => localStorage.setItem(KEY + "_" + k, $(k).value));
+});
+if (!$("sdate").value) $("sdate").value = new Date().toISOString().slice(0,10);
+
+$("platform").addEventListener("change", showType);
+function showType(){
+  const o = $("platform").selectedOptions[0];
+  const t = o ? o.dataset.type : "";
+  $("mktbox").classList.toggle("hide", t !== "marketplace");
+  $("ownbox").classList.toggle("hide", t !== "owned_kitchen");
+  $("ptype").innerHTML = t === "marketplace"
+    ? '<span class="pill mkt">marketplace</span> record five restaurant prices'
+    : t === "owned_kitchen"
+      ? '<span class="pill own">owned kitchen</span> single list price'
+      : "";
+}
+showType();
+
+const num = v => { const x = parseFloat(String(v).replace(/[^0-9.]/g,"")); return isNaN(x) ? "" : x; };
+const median = a => { if(!a.length) return ""; const s=[...a].sort((x,y)=>x-y), m=s.length>>1;
+  return s.length%2 ? s[m] : (s[m-1]+s[m])/2; };
+
+const norm = s => String(s).toLowerCase().replace(/[^a-z0-9]+/g," ").trim();
+
+function lookupId(){
+  const n = norm($("iname").value);
+  if(!n) return;
+  const hit = rows.find(r => norm(r.item_name) === n);
+  const h = $("matchhint");
+  if(hit){
+    $("mid").value = hit.matched_id;
+    h.innerHTML = '<b style="color:var(--ok)">Matched to ID ' + esc(hit.matched_id) +
+                  '</b>, already captured on ' +
+                  esc([...new Set(rows.filter(r => norm(r.item_name) === n)
+                       .map(r => r.platform))].join(", ")) + ".";
+  } else {
+    h.textContent = "New item. It will take the next free matched ID.";
+  }
+}
+$("iname").addEventListener("change", lookupId);
+$("iname").addEventListener("blur", lookupId);
+
+function nextId(){
+  const used = rows.map(r => parseInt(r.matched_id,10)).filter(v => !isNaN(v));
+  return used.length ? Math.max(...used) + 1 : 1;
+}
+
+function save(){
+  const o = $("platform").selectedOptions[0];
+  const ptype = o ? o.dataset.type : "";
+  const miss = [];
+  if(!$("collector").value.trim()) miss.push("collector");
+  if(!$("city").value) miss.push("city");
+  if(!$("pincode").value.trim()) miss.push("pincode");
+  if(!$("platform").value) miss.push("platform");
+  if(!$("mid").value.trim()) miss.push("matched ID");
+  if(!$("iname").value.trim()) miss.push("item name");
+  if(!$("cat").value) miss.push("category");
+  if(miss.length){ alert("Missing: " + miss.join(", ")); return; }
+
+  const px = ["p1","p2","p3","p4","p5"].map(i => num($(i).value)).filter(v => v !== "");
+  if(ptype === "marketplace" && px.length === 0){ alert("Enter at least one restaurant price."); return; }
+  if(ptype === "owned_kitchen" && num($("p0").value) === ""){ alert("Enter the list price."); return; }
+
+  const r = {
+    collector: $("collector").value.trim(), session_date: $("sdate").value,
+    city: $("city").value, pincode: $("pincode").value.trim(), slot: $("slot").value.trim(),
+    platform: $("platform").value, platform_type: ptype,
+    matched_id: $("mid").value.trim(), item_name: $("iname").value.trim(), category: $("cat").value,
+    price_1: px[0] ?? "", price_2: px[1] ?? "", price_3: px[2] ?? "",
+    price_4: px[3] ?? "", price_5: px[4] ?? "",
+    n_restaurants: ptype === "marketplace" ? px.length : "",
+    list_price: ptype === "marketplace" ? median(px) : num($("p0").value),
+    discounted_price: num($("disc").value), delivery_fee: num($("dfee").value),
+    platform_fee: num($("pfee").value), promised_min: num($("mins").value),
+    exclude_flag: $("flag").value, notes: $("notes").value.trim().replace(/[\r\n]+/g," "),
+    captured_at: new Date().toISOString()
+  };
+
+  const clash = rows.find(x => norm(x.item_name) === norm(r.item_name) && x.matched_id !== r.matched_id);
+  if(clash && !confirm('"' + r.item_name + '" is already saved under matched ID ' + clash.matched_id +
+      ", not " + r.matched_id + ". Two IDs for one dish will break the item fixed effects. Save anyway?")) return;
+
+  const dup = rows.some(x => x.matched_id === r.matched_id && x.platform === r.platform && x.city === r.city);
+  if(dup && !confirm("Item " + r.matched_id + " already captured for " + r.platform +
+                     " in " + r.city + ". Save anyway?")) return;
+
+  rows.push(r); persist(); clearItem();
+  $("mid").value = String(nextId());
+  $("matchhint").textContent = "Next free ID prefilled. Type an item you have already captured to reuse its ID.";
+  $("iname").focus();
+}
+
+function clearItem(){
+  ["iname","p0","p1","p2","p3","p4","p5","disc","notes"].forEach(i => $(i).value = "");
+  $("flag").value = "";
+}
+function undo(){ if(!rows.length) return; if(confirm("Remove the last row?")){ rows.pop(); persist(); } }
+function clearAll(){
+  if(!rows.length) return;
+  if(confirm("Delete all " + rows.length + " rows on this device? Export first.")){ rows = []; persist(); }
+}
+
+function persist(){
+  localStorage.setItem(KEY, JSON.stringify(rows));
+  $("n").textContent = rows.length;
+  const own = rows.filter(r => r.platform_type === "owned_kitchen").length;
+  $("brk").textContent = rows.length ? "· " + own + " owned / " + (rows.length - own) + " marketplace" : "";
+  const log = $("log");
+  if(!rows.length){ log.innerHTML = '<div style="color:var(--muted)">nothing yet</div>'; return; }
+  const names = [...new Set(rows.map(r => r.item_name))].sort();
+  $("known").innerHTML = names.map(n => '<option value="' + esc(n) + '">').join("");
+  log.innerHTML = rows.slice(-40).reverse().map(r =>
+    '<div><span>' + esc(r.matched_id + " · " + r.item_name) +
+    ' <span class="pill ' + (r.platform_type === "owned_kitchen" ? "own" : "mkt") + '">' +
+    esc(r.platform) + '</span></span><span class="n">₹' + r.list_price + '</span></div>').join("");
+}
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+const COLS = ["collector","session_date","city","pincode","slot","platform","platform_type",
+  "matched_id","item_name","category","price_1","price_2","price_3","price_4","price_5",
+  "n_restaurants","list_price","discounted_price","delivery_fee","platform_fee","promised_min",
+  "exclude_flag","notes","captured_at"];
+
+function exportCsv(){
+  if(!rows.length){ alert("Nothing to export."); return; }
+  const q = v => { const s = v === undefined || v === null ? "" : String(v);
+    return /[",\n]/.test(s) ? '"' + s.replace(/"/g,'""') + '"' : s; };
+  const csv = [COLS.join(",")].concat(rows.map(r => COLS.map(c => q(r[c])).join(","))).join("\n");
+  const name = "menu_prices_" + ($("city").value || "city").replace(/\s+/g,"") +
+               "_" + ($("sdate").value || "") + ".csv";
+  const blob = new Blob([csv], {type:"text/csv;charset=utf-8"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob); a.download = name;
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+}
+
+persist();
+</script>
+</body>
+</html>

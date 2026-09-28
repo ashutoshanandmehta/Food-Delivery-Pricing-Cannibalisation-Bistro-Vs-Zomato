@@ -1,0 +1,6 @@
+component,value,source,method,confidence
+order_value,,,,low
+food_cogs,,,,low
+kitchen_marginal,,,,very low
+delivery_marginal,,,,medium
+packaging_and_waste,,,,low

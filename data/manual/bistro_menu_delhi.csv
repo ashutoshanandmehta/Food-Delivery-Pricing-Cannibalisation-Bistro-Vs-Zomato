@@ -1,0 +1,88 @@
+matched_id,section,bistro_item_name,search_term,list_price,strikethrough_price,veg_flag,serves_or_pieces,prep_min,available,notes
+1,Meals,Chicken Dum Biryani (Boneless),Chicken Dum Biryani,259,,nonveg,Serves 1,9.0,True,8/10 re-order this
+2,Meals,Chicken Keema & Paratha,Chicken Keema Paratha,239,,nonveg,Serves 1,9.0,True,
+3,Meals,Paneer Makhani Biryani,Paneer Biryani,239,,veg,Serves 1,9.0,True,Hot right now / served with raita & onion
+4,Meals,Chicken Keema Pav,Chicken Keema Pav,189,,nonveg,Serves 1,9.0,True,also listed in Quick Bites
+5,Meals,Rajma Rice,Rajma Chawal,159,,veg,Serves 1,6.0,True,Bestseller
+6,Meals,Amritsari Chole & Rice,Chole Chawal,159,,veg,Serves 1,7.0,True,Hot right now
+7,Meals,Chole Kulche,Chole Kulche,149,,veg,Serves 1,7.0,True,Bestseller / also in All Day Breakfast
+8,Meals,Yellow Dal Tadka & Rice,Dal Chawal,149,,veg,Serves 1,7.0,True,Bestseller
+9,Quick Bites,Angara Chicken Tikka Kebab,Chicken Tikka,249,,nonveg,6 Pieces,9.0,True,Chef's Special
+10,Quick Bites,Crispy Fried Chicken,Fried Chicken,249,,nonveg,2 Pieces,11.0,True,
+11,Quick Bites,Hot & Spicy Chicken Seekh Kebab,Chicken Seekh Kebab,229,,nonveg,6 Pieces,8.0,True,8/10 re-order this
+12,Quick Bites,Crispy Chicken Strips,Chicken Strips,209,,nonveg,7 Pieces,8.0,True,Chef's Special
+13,Quick Bites,Desi Chicken Spring Rolls,Chicken Spring Roll,189,,nonveg,4 Pieces,9.0,True,Spicy
+14,Quick Bites,Crispy Chicken Popcorn,Chicken Popcorn,179,,nonveg,Serves 1,9.0,True,
+15,Quick Bites,Butter Chicken Kulcha Bombs,Butter Chicken Kulcha,169,,nonveg,2 Pieces,7.0,True,
+16,Quick Bites,Desi Veg Spring Rolls,Veg Spring Roll,169,,veg,4 Pieces,9.0,True,Spicy
+17,Quick Bites,Chatpata Mix Veg Pakora,Mix Veg Pakora,159,,veg,11 Pieces,10.0,True,
+18,Quick Bites,Cheese Stuffed Korean Bun,Korean Bun,159,,veg,1 Piece,7.0,True,
+19,Quick Bites,Crispy Peri Peri Fries,Peri Peri Fries,149,,veg,Serves 2,10.0,True,Bestseller
+20,Quick Bites,Crispy Chicken Nuggets,Chicken Nuggets,149,,nonveg,6 Pieces,9.0,True,
+21,Quick Bites,Veggie Pizza Pockets,Pizza Pocket,149,,veg,4 Pieces,11.0,True,
+22,Quick Bites,Masala Dosa Pops,Dosa,149,,veg,10 Pieces,9.0,True,
+23,Quick Bites,Potato Cheese Pops,Cheese Potato Pops,119,,veg,6 Pieces,8.0,True,Chef's Special
+24,Quick Bites,Peri Peri Popcorn,Peri Peri Popcorn,109,,veg,Serves 1,8.0,True,
+25,Quick Bites,Cheese Maggi,Cheese Maggi,109,,veg,Serves 1,10.0,True,8/10 re-order this
+26,Quick Bites,Cheesy Vada Pav,Cheese Vada Pav,99,,veg,Serves 1,8.0,True,
+27,Quick Bites,Peri Peri Maggi,Peri Peri Maggi,99,,veg,Serves 1,9.0,True,8/10 re-order this
+28,Quick Bites,High-Protein Boiled Eggs,Boiled Eggs,99,,egg,Serves 1,8.0,True,Highly reordered
+29,Quick Bites,Cheese Popcorn,Cheese Popcorn,99,,veg,Serves 1,8.0,True,
+30,Quick Bites,Plain Maggi,Maggi,89,,veg,Serves 1,10.0,True,Hot right now
+31,Quick Bites,Bambai Style Vada Pav,Vada Pav,79,,veg,Serves 1,7.0,True,Bestseller / Chef's Special
+32,Quick Bites,Punjabi Aloo Samosa,Samosa,79,,veg,2 Pieces,7.0,True,
+33,Quick Bites,Butter Popcorn,Popcorn,79,,veg,Serves 1,8.0,True,Crowd's favourite
+34,Quick Bites,Bun Maska,Bun Maska,69,,veg,Serves 1,6.0,True,Bestseller
+35,Quick Bites,Crispy Potato Chivda,Potato Chivda,49,,veg,Serves 1,6.0,True,
+36,"Sandwich, Rolls & Burgers",Asian Chicken Croissant Sandwich,Chicken Croissant,249,309.0,nonveg,Serves 1,9.0,True,Chef's Special
+37,"Sandwich, Rolls & Burgers",Ham & Cheese Croissant Sandwich,Ham Cheese Croissant,249,,nonveg,Serves 1,10.0,True,Chef's Special
+38,"Sandwich, Rolls & Burgers",Nawabi Chicken Seekh Roll,Chicken Seekh Roll,249,,nonveg,Serves 1,10.0,True,Spicy
+39,"Sandwich, Rolls & Burgers",Bocconcini & Pesto Croissant Sandwich,Pesto Croissant,239,299.0,veg,Serves 1,9.0,True,Chef's Special / value meal
+40,"Sandwich, Rolls & Burgers",Mushroom & Cheese Croissant Sandwich,Mushroom Croissant,239,299.0,veg,Serves 1,8.0,True,Chef's Special
+41,"Sandwich, Rolls & Burgers",Bhuna Chicken Grilled Sandwich,Chicken Grilled Sandwich,189,,nonveg,Serves 1,10.0,True,Highly reordered / value meal
+42,"Sandwich, Rolls & Burgers",Mumbai Veg Cheese Grilled Sandwich,Veg Cheese Grilled Sandwich,169,229.0,veg,Serves 1,10.0,True,Bestseller / value meal
+43,"Sandwich, Rolls & Burgers",Masala Potato Grilled Sandwich,Aloo Grilled Sandwich,139,199.0,veg,Serves 1,10.0,True,value meal
+44,"Sandwich, Rolls & Burgers",OG Chicken Burger,Chicken Burger,129,,nonveg,Serves 1,10.0,True,8/10 re-order this
+45,"Sandwich, Rolls & Burgers",OG Veg Burger,Veg Burger,109,,veg,Serves 1,9.0,True,
+46,Desserts,Malai Ghewar,Ghewar,219,,veg,Serves 2,7.0,True,Limited stock
+47,Desserts,Chocolate Pancakes (Eggless),Chocolate Pancakes,169,,veg,4 Pieces,7.0,True,also in All Day Breakfast
+48,Desserts,Chocolate Truffle Jar,Chocolate Truffle,149,,veg,Serves 1,6.0,True,Chef's Special
+49,Desserts,Triple Chocolate Mousse,Chocolate Mousse,149,,veg,Serves 1,6.0,True,Chef's Special / Crowd's favourite
+50,Desserts,Mini Jalebi Churros,Churros,149,,veg,10 Pieces,,False,marked Back Soon
+51,Desserts,Walnut Brownie With Chocolate Fudge Sauce,Walnut Brownie,109,,veg,1 Piece,7.0,True,
+52,Desserts,Kesari Rasmalai,Rasmalai,69,,veg,1 Piece,6.0,True,
+53,Desserts,Moong Dal Halwa,Moong Dal Halwa,69,,veg,Serves 1,7.0,True,Hot right now
+54,Desserts,Cream Roll,Cream Roll,49,,veg,1 Piece,6.0,True,
+55,Desserts,Gulab Jamun,Gulab Jamun,49,,veg,1 Piece,7.0,True,
+56,Desserts,Sooji ka Halwa,Sooji Halwa,49,,veg,Serves 1,7.0,True,
+57,Desserts,Sponge Rasgulla,Rasgulla,49,,veg,1 Piece,6.0,True,
+58,Meals,Paneer Mirch Paratha,Paneer Paratha,179,,veg,2 Pieces,11.0,True,"Bestseller / served with curd, butter, pickles"
+59,Meals,Aloo Pyaaz Paratha,Aloo Paratha,159,,veg,2 Pieces,10.0,True,"Bestseller / served with curd, butter & pickle"
+60,All Day Breakfast,Idli Sambar,Idli Sambar,139,,veg,Serves 1,8.0,True,
+61,All Day Breakfast,Dehradun ki Bun Tikki,Bun Tikki,139,,veg,Serves 1,10.0,True,
+62,All Day Breakfast,Vegetable Poha,Poha,129,,veg,Serves 1,6.0,True,Bestseller
+63,All Day Breakfast,Butter Tadka Idli,Tadka Idli,119,,veg,Serves 1,7.0,True,Highly reordered
+64,All Day Breakfast,Hand Rolled Butter Croissant,Butter Croissant,119,,veg,1 Piece,7.0,True,8/10 re-order this
+65,Tea & Coffee,Masala Chai,Masala Chai,99,149.0,veg,4 cups,10.0,True,Highly reordered / 33% OFF
+66,Tea & Coffee,Desi Chai,Chai,99,149.0,veg,4 cups,10.0,True,Highly reordered / 33% OFF
+67,Tea & Coffee,Adrak Chai,Adrak Chai,69,99.0,veg,2 cups,9.0,True,Highly reordered / 30% OFF
+68,Chaat Specials,Dahi Samosa Chaat,Samosa Chaat,139,,veg,Serves 1,8.0,True,
+69,Chaat Specials,Kala Chana Chaat,Chana Chaat,129,,veg,Serves 1,8.0,True,
+70,Chaat Specials,White Chana Chaat,White Chana Chaat,129,,veg,Serves 1,8.0,True,
+71,Coolers & Shakes,Lemon Iced Tea,Lemon Iced Tea,79,,veg,260 ml,6.0,True,
+72,Coolers & Shakes,Jamun Kala Khatta,Kala Khatta,59,,veg,260 ml,6.0,True,
+73,Coolers & Shakes,Masala Banta Cola,Banta Cola,49,,veg,260 ml,6.0,True,
+74,Coolers & Shakes,Jeera Banta Soda,Jeera Soda,49,,veg,260 ml,6.0,True,
+75,Soft Drinks & Juices,Diet Coke - Can,Diet Coke,50,,veg,330 ml,7.0,True,Highly reordered / Trending
+76,Party Packs,Special Chicken Party Platter,Chicken Platter,599,,nonveg,Serves 3-4,10.0,True,Free cheese pops included
+77,Party Packs,Mix Snack Party Platter,Snack Platter,499,,nonveg,Serves 3-4,10.0,True,Free cheese pops included
+78,Party Packs,Munchies Box,Munchies Box,199,,veg,Serves 3-4,8.0,True,
+79,Meals,Ghee Sambar & Rice,Sambar Rice,159,,veg,Serves 1,7.0,True,Hot right now
+80,Meals,Homely Vegetable Khichdi,Khichdi,149,,veg,Serves 1,9.0,True,Bestseller
+81,Quick Bites,Chatpata Paneer Pakora,Paneer Pakora,189,,veg,6 Pieces,9.0,True,with mint & imli chutneys
+82,Quick Bites,Crispy Paneer Strips,Paneer Strips,189,,veg,5 Pieces,9.0,True,
+83,Quick Bites,French Fries,French Fries,139,,veg,Serves 2,10.0,True,with ketchup & chipotle dip
+84,Quick Bites,Nutella Bun Maska,Nutella Bun,99,,veg,Serves 1,7.0,True,
+85,All Day Breakfast,Butter Pancakes (Eggless),Pancakes,149,,veg,4 Pieces,7.0,True,Crowd's favourite
+86,All Day Breakfast,Cheesy Bun Omelette,Bun Omelette,139,,egg,Serves 1,9.0,True,Chef's Special
+87,Tea & Coffee,Hot Cappuccino,Cappuccino,99,,veg,300 ml,7.0,True,9/10 re-order this

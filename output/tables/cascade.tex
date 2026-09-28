@@ -1,0 +1,19 @@
+1 & Is the outcome linear in levels or in logs? & skew falls from 0.96 in levels to 0.18 in logs; RESET p = 0.402 & log price is the dependent variable, and beta reads as a percentage gap \\
+\addlinespace
+2 & Do dishes differ enough to need their own intercepts? & F = 15.4, p = <0.001; beta moves from -0.303 pooled to -0.324 with dish effects & item fixed effects, Model 2. The gap between the two betas is the assortment composition effect, and it is reported rather than hidden \\
+\addlinespace
+3 & Does every dish actually identify the contrast? & 27 dishes identify beta, 0 dropped & the estimation sample is 215 rows over 27 dishes \\
+\addlinespace
+4 & Is the error variance constant? & Breusch-Pagan p = <0.001; heteroscedastic. White is rank deficient in a fixed effects design and is not reported & robust standard errors, which the clustered errors in gate 5 already are \\
+\addlinespace
+5 & Are errors correlated within a dish? & ICC = 0.058; clustering multiplies the standard error by 1.51 & cluster by dish. Several quotes per dish are one draw of a dish, not several independent draws \\
+\addlinespace
+6 & Are there enough clusters for asymptotic inference? & 27 clusters, below the threshold of 42 & the wild cluster bootstrap is the inference, not a robustness extra. The asymptotic p value is reported beside it and over-rejects \\
+\addlinespace
+7 & Are the residuals normal? & Shapiro-Wilk p = 0.028, Jarque-Bera p = 0.004; not normal & reinforces gate 6. Non-normal residuals over few clusters is exactly the case the bootstrap exists for \\
+\addlinespace
+8 & Does a single dish carry the estimate? & largest swing 0.043 log points; sign never flips & the estimate is not a one dish artefact; the jackknife spread is plotted \\
+\addlinespace
+9 & Is the per-unit result robust to how unstated quantities are read? & beta ranges -0.318 to -0.151 across the rules; sign holds, significance does not hold & the per-unit estimate is reported as a range, not a point. The list price specification leads instead, at -0.206 (p = 0.021), because it uses no quantity assumption at all \\
+\addlinespace
+10 & Does the parametric estimate agree with the rank test? & mean rank 0.291 against a null of 0.500, Wilcoxon p = 0.002; agrees with the model & the rank test leads the results because it assumes least, and the coefficient supplies the magnitude \\

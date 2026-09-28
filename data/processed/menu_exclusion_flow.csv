@@ -1,0 +1,11 @@
+stage,rows_remaining,reason_dropped
+dish rows transcribed,794,
+price readable,594,unreadable price
+restaurant identifiable,481,header off-screen
+card fully in frame,370,clipped by the scroll edge
+under the matching section,344,listed under Recommended/Most ordered
+search not a collapsed query,314,Tea/Chai/Chaat each cover 3 Bistro dishes
+search term maps to a Bistro dish,309,unmapped or blank
+passes CORE and FORM veto,254,"wrong dish, or a bulk/box/combo listing"
+passes the manual format review,204,"wrong product format: half, mini, bulk or a two-dish combo"
+quantity resolvable,197,"volume basis with no stated volume, never defaulted to 1 ml"

@@ -1,0 +1,16 @@
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+
+# Estimation. The assumptions table names Ramsey RESET, Breusch-Pagan and
+# Shapiro-Wilk, and hand rolling diagnostic tests is risk with no payoff.
+statsmodels>=0.14
+scipy>=1.11
+pdfplumber>=0.10
+pypdf>=4.0
+requests>=2.31
+beautifulsoup4>=4.12
+lxml>=4.9
+jupyter>=1.0
+openpyxl>=3.1
+pytest>=7.4

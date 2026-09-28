@@ -1,0 +1,226 @@
+platform,matched_id,section,basis,restaurant_name,dish_name_raw,list_price,units,stated_pieces,qty_source,unit_price,effective_price,match_grade,is_sponsored,serving_unreliable,cell_weight
+Bistro,1,Meals,serving,Bistro,Chicken Dum Biryani (Boneless),259.0,1.0,,name,259.0,259.0,A_exact,False,False,1.0
+Bistro,3,Meals,serving,Bistro,Paneer Makhani Biryani,239.0,1.0,,name,239.0,239.0,A_exact,False,False,1.0
+Bistro,4,Meals,serving,Bistro,Chicken Keema Pav,189.0,1.0,,name,189.0,189.0,A_exact,False,False,1.0
+Bistro,5,Meals,serving,Bistro,Rajma Rice,159.0,1.0,,name,159.0,159.0,A_exact,False,False,1.0
+Bistro,7,Meals,serving,Bistro,Chole Kulche,149.0,1.0,,name,149.0,149.0,A_exact,False,False,1.0
+Bistro,8,Meals,serving,Bistro,Yellow Dal Tadka & Rice,149.0,1.0,,name,149.0,149.0,A_exact,False,False,1.0
+Bistro,10,Quick Bites,piece,Bistro,Crispy Fried Chicken,249.0,2.0,,name,124.5,249.0,A_exact,False,False,1.0
+Bistro,14,Quick Bites,serving,Bistro,Crispy Chicken Popcorn,179.0,1.0,,name,179.0,179.0,A_exact,False,False,1.0
+Bistro,16,Quick Bites,serving,Bistro,Desi Veg Spring Rolls,169.0,1.0,,name,169.0,169.0,A_exact,False,False,1.0
+Bistro,17,Quick Bites,piece,Bistro,Chatpata Mix Veg Pakora,159.0,11.0,,name,14.454545454545455,159.0,A_exact,False,False,1.0
+Bistro,19,Quick Bites,serving,Bistro,Crispy Peri Peri Fries,149.0,2.0,,name,74.5,149.0,A_exact,False,False,1.0
+Bistro,25,Quick Bites,serving,Bistro,Cheese Maggi,109.0,1.0,,name,109.0,109.0,A_exact,False,False,1.0
+Bistro,26,Quick Bites,serving,Bistro,Cheesy Vada Pav,99.0,1.0,,name,99.0,99.0,A_exact,False,False,1.0
+Bistro,28,Quick Bites,serving,Bistro,High-Protein Boiled Eggs,99.0,1.0,,name,99.0,99.0,A_exact,False,False,1.0
+Bistro,32,Quick Bites,piece,Bistro,Punjabi Aloo Samosa,79.0,2.0,,name,39.5,79.0,A_exact,False,False,1.0
+Bistro,44,"Sandwich, Rolls & Burgers",serving,Bistro,OG Chicken Burger,129.0,1.0,,name,129.0,129.0,A_exact,False,False,1.0
+Bistro,45,"Sandwich, Rolls & Burgers",serving,Bistro,OG Veg Burger,109.0,1.0,,name,109.0,109.0,A_exact,False,False,1.0
+Bistro,46,Desserts,serving,Bistro,Malai Ghewar,219.0,2.0,,name,109.5,219.0,A_exact,False,False,1.0
+Bistro,52,Desserts,piece,Bistro,Kesari Rasmalai,69.0,1.0,,name,69.0,69.0,A_exact,False,False,1.0
+Bistro,53,Desserts,serving,Bistro,Moong Dal Halwa,69.0,1.0,,name,69.0,69.0,A_exact,False,False,1.0
+Bistro,55,Desserts,piece,Bistro,Gulab Jamun,49.0,1.0,,name,49.0,49.0,A_exact,False,False,1.0
+Bistro,57,Desserts,piece,Bistro,Sponge Rasgulla,49.0,1.0,,name,49.0,49.0,A_exact,False,False,1.0
+Bistro,59,Meals,piece,Bistro,Aloo Pyaaz Paratha,159.0,2.0,,name,79.5,159.0,A_exact,False,False,1.0
+Bistro,60,All Day Breakfast,serving,Bistro,Idli Sambar,139.0,1.0,,name,139.0,139.0,A_exact,False,True,1.0
+Bistro,62,All Day Breakfast,serving,Bistro,Vegetable Poha,129.0,1.0,,name,129.0,129.0,A_exact,False,False,1.0
+Bistro,68,Chaat Specials,serving,Bistro,Dahi Samosa Chaat,139.0,1.0,,name,139.0,139.0,A_exact,False,False,1.0
+Bistro,71,Coolers & Shakes,ml,Bistro,Lemon Iced Tea,79.0,260.0,,name,0.3038461538461538,79.0,A_exact,False,False,1.0
+Bistro,75,Soft Drinks & Juices,serving,Bistro,Diet Coke - Can,50.0,1.0,,name,50.0,50.0,A_exact,False,False,1.0
+Zomato,3,Meals,serving,Biryani By CTJ,Paneer Makhani Biryani,395.0,1.0,,assumed,395.0,395.0,B_close,False,False,0.3333333333333333
+Zomato,3,Meals,serving,Charcoal Eats - Biryani & Beyond,Paneer Makhani Biryani Bowl,279.3,1.0,,assumed,279.3,279.3,B_close,False,False,0.3333333333333333
+Zomato,3,Meals,serving,Aflatoon-By Social,Paneer Makhni Biryani,650.0,1.0,,assumed,650.0,650.0,B_close,False,False,0.3333333333333333
+Zomato,4,Meals,serving,Surkhaab,Chicken Keema Pao,465.0,1.0,,assumed,465.0,465.0,B_close,False,False,0.25
+Zomato,4,Meals,serving,SMS Kolkata Biriyani House,Chicken Keema Pav [2 Pav],160.0,1.0,,assumed,160.0,160.0,B_close,False,False,0.25
+Zomato,4,Meals,serving,The Food Stop,Chicken Keema Pav,298.0,1.0,,assumed,298.0,298.0,B_close,False,False,0.25
+Zomato,4,Meals,serving,The Postman Kitchen,Chicken Keema Pav,240.0,1.0,,assumed,240.0,240.0,B_close,False,False,0.25
+Zomato,5,Meals,serving,Ghee and Turmeric,Desi Ghee Rajma Rice Bowl,229.0,1.0,,assumed,229.0,229.0,B_close,False,False,0.16666666666666666
+Zomato,5,Meals,serving,NH1 Bowls - Highway To North,Delhi-6 Rajma Rice Bowl,239.0,1.0,,assumed,239.0,239.0,B_close,False,False,0.16666666666666666
+Zomato,5,Meals,serving,"UBQ-Meals,Thalis & Bowls",Rajma Chawal Bowl,289.0,1.0,,assumed,289.0,289.0,B_close,False,False,0.16666666666666666
+Zomato,5,Meals,serving,Annapurna Bhojnalya,Rajma Masala Rice Bowl,299.0,1.0,,assumed,299.0,299.0,B_close,False,False,0.16666666666666666
+Zomato,5,Meals,serving,Annapurna Bhojnalya,Rajma Rice Bowl,219.0,1.0,,assumed,219.0,219.0,B_close,False,False,0.16666666666666666
+Zomato,5,Meals,serving,Apna Dhaba,Rajma Rice Bowl,189.0,1.0,,assumed,189.0,189.0,B_close,False,False,0.16666666666666666
+Zomato,7,Meals,serving,Haldiram's,Amritsari Choley Aur Kulche (2 pcs),216.0,1.0,2.0,basis_default,216.0,216.0,C_loose,False,False,1.0
+Zomato,10,Quick Bites,piece,KFC,Hot & Crispy Chicken - 8 pcs,683.24,8.0,8.0,name,85.405,683.24,A_exact,False,False,0.25
+Zomato,10,Quick Bites,piece,Delhi Darbar Dhaba,Crispy Chicken Fried,450.0,1.0,,assumed,450.0,450.0,B_close,False,False,0.25
+Zomato,10,Quick Bites,piece,Wang House Korean Street Food Cafe,Crispy Boneless Fried Chicken - 8 Pcs,475.0,8.0,8.0,name,59.375,475.0,A_exact,False,False,0.25
+Zomato,10,Quick Bites,piece,Dripping Dose,Crispy Fried Prprika Chicken,365.0,1.0,,assumed,365.0,365.0,B_close,False,False,0.25
+Zomato,14,Quick Bites,serving,Out Of The Box Courtyard,Crispy Chicken Popcorn,620.0,1.0,,assumed,620.0,620.0,B_close,False,False,0.25
+Zomato,14,Quick Bites,serving,Hot Pot Fast Food,Crispy Chicken Popcorn,290.0,1.0,,assumed,290.0,290.0,B_close,False,False,0.25
+Zomato,14,Quick Bites,serving,Nosher's,Crispy Chicken Popcorn,280.0,1.0,,assumed,280.0,280.0,B_close,False,False,0.25
+Zomato,14,Quick Bites,serving,The Chef Cart,Chicken Hot and Crispy Popcorn,170.0,1.0,,assumed,170.0,170.0,B_close,False,False,0.25
+Zomato,17,Quick Bites,piece,Tempting Delight,Mix Veg Pakoda [10 Pieces],227.5,10.0,10.0,name,22.75,227.5,A_exact,False,False,0.3333333333333333
+Zomato,17,Quick Bites,piece,Curry Nation,Mix Veg Pakora [12 pieces],345.0,12.0,12.0,name,28.75,345.0,A_exact,False,False,0.3333333333333333
+Zomato,17,Quick Bites,piece,chawla sweets corner,Mix Veg Pakoda,100.0,1.0,,assumed,100.0,100.0,B_close,False,False,0.3333333333333333
+Zomato,19,Quick Bites,serving,Burger King,Peri Peri Fries (R),59.0,1.0,,assumed,59.0,59.0,B_close,False,False,1.0
+Zomato,25,Quick Bites,serving,Chaayos Chai+Snacks=Relax,Cheese Masala Maggi,199.0,1.0,,assumed,199.0,199.0,B_close,False,False,0.3333333333333333
+Zomato,25,Quick Bites,serving,Nibbles Cafe,Cheese Maggi,149.0,1.0,,assumed,149.0,149.0,B_close,False,False,0.3333333333333333
+Zomato,25,Quick Bites,serving,Chai Sutta Bar,Butter Cheese Maggi,120.0,1.0,,assumed,120.0,120.0,B_close,False,False,0.3333333333333333
+Zomato,28,Quick Bites,serving,The Moms Taste,Boiled Egg [6 Egg],110.0,1.0,,assumed,110.0,110.0,B_close,False,False,0.5
+Zomato,28,Quick Bites,serving,Kerala Coastal Restaurant,Boiled Egg [2 Pieces],70.0,1.0,2.0,basis_default,70.0,70.0,B_close,False,False,0.5
+Zomato,32,Quick Bites,piece,Kota Kachori - Falahaar,Aloo Samosa,35.0,1.0,,assumed,35.0,35.0,B_close,False,False,0.25
+Zomato,32,Quick Bites,piece,Kaleva,Aloo Samosa,24.0,1.0,1.0,description,24.0,24.0,A_exact,False,False,0.25
+Zomato,32,Quick Bites,piece,Chai Point,Aloo Samosa,99.0,1.0,,assumed,99.0,99.0,B_close,False,False,0.25
+Zomato,32,Quick Bites,piece,Shyam Sweets,Aloo Samosa [2 Pieces],65.0,2.0,2.0,name,32.5,65.0,A_exact,False,False,0.25
+Zomato,44,"Sandwich, Rolls & Burgers",serving,KFC,Chicken Zinger Burger - Classic,248.57,1.0,,assumed,248.57,248.57,B_close,False,False,0.2
+Zomato,44,"Sandwich, Rolls & Burgers",serving,Seoul Burgers & Shakes,Crispy Chicken Burger (VR),144.0,1.0,,assumed,144.0,144.0,B_close,False,False,0.2
+Zomato,44,"Sandwich, Rolls & Burgers",serving,AL - Bake,Crispy Chicken Burger,160.0,1.0,,assumed,160.0,160.0,B_close,False,False,0.2
+Zomato,44,"Sandwich, Rolls & Burgers",serving,Buff Grill,Cheese Chicken Popcorn Burger,115.0,1.0,,assumed,115.0,115.0,B_close,False,False,0.2
+Zomato,44,"Sandwich, Rolls & Burgers",serving,Buff Grill,Cheese Chicken Crunch Burger,155.0,1.0,,assumed,155.0,155.0,B_close,False,False,0.2
+Zomato,45,"Sandwich, Rolls & Burgers",serving,KFC,Veg Zinger Burger,239.05,1.0,,assumed,239.05,239.05,B_close,False,False,0.2
+Zomato,45,"Sandwich, Rolls & Burgers",serving,KFC,Veg Zinger Burger with Cheese,263.81,1.0,,assumed,263.81,263.81,B_close,False,False,0.2
+Zomato,45,"Sandwich, Rolls & Burgers",serving,Kala Cafe,Vegetables And Cheese Burger,195.0,1.0,,assumed,195.0,195.0,B_close,False,False,0.2
+Zomato,45,"Sandwich, Rolls & Burgers",serving,Seoul Burgers & Shakes,The OG Veggie Burger,144.0,1.0,,assumed,144.0,144.0,B_close,False,False,0.2
+Zomato,45,"Sandwich, Rolls & Burgers",serving,Wendy's Burgers,Crispy Veg Burger,59.0,1.0,,assumed,59.0,59.0,B_close,False,False,0.2
+Zomato,46,Desserts,serving,Nathu's Sweets,Malai Ghewar,300.0,1.0,,assumed,300.0,300.0,B_close,False,False,0.25
+Zomato,46,Desserts,serving,Bangla Sweet House,Malai Ghewar,450.0,1.0,,assumed,450.0,450.0,B_close,False,False,0.25
+Zomato,46,Desserts,serving,Bangla Sweet House,Kesar Malai Ghewar [Desi Ghee],565.0,1.0,,assumed,565.0,565.0,B_close,False,False,0.25
+Zomato,46,Desserts,serving,Mithaivala,Malai Ghewar [Desi Ghee],196.43,1.0,,assumed,196.43,196.43,B_close,False,False,0.25
+Zomato,52,Desserts,piece,Bangla Sweet House,Kesar Rasmalai [1 Pc],70.0,1.0,1.0,name,70.0,70.0,A_exact,False,False,0.3333333333333333
+Zomato,52,Desserts,piece,Kaleva All Day Diner,Kesar Rasmalai (2 Pc),135.0,2.0,2.0,name,67.5,135.0,A_exact,False,False,0.3333333333333333
+Zomato,52,Desserts,piece,Kaleva,Kesar Rasmalai [2 Pcs],180.0,2.0,2.0,name,90.0,180.0,A_exact,False,False,0.3333333333333333
+Zomato,53,Desserts,serving,Haldiram's,Moong Dal Halwa,245.88,1.0,,assumed,245.88,245.88,B_close,False,False,0.2
+Zomato,53,Desserts,serving,Shyam Sweets,Moong Dal Halwa Seasonal,270.0,1.0,,assumed,270.0,270.0,B_close,False,False,0.2
+Zomato,53,Desserts,serving,Barbeque Nation,Moong Dal Halwa,209.0,1.0,,assumed,209.0,209.0,B_close,False,False,0.2
+Zomato,53,Desserts,serving,Gulati,Mung Dal Halwa,425.0,1.0,,assumed,425.0,425.0,B_close,False,False,0.2
+Zomato,53,Desserts,serving,Punjab Grill,Moong Dal Halwa,355.0,1.0,,assumed,355.0,355.0,B_close,False,False,0.2
+Zomato,55,Desserts,piece,Saravana Bhavan,Gulab Jamun (2 Pcs),90.48,2.0,2.0,name,45.24,90.48,A_exact,False,False,0.25
+Zomato,55,Desserts,piece,Nathu's Sweets,Gulab Jamun,150.0,1.0,,assumed,150.0,150.0,B_close,False,False,0.25
+Zomato,55,Desserts,piece,Kota Kachori - Falahaar,Falahaari Gulab Jamun,75.0,1.0,,assumed,75.0,75.0,B_close,False,False,0.25
+Zomato,55,Desserts,piece,Bangla Sweet House,Gulab Jamun,170.0,1.0,,assumed,170.0,170.0,B_close,False,False,0.25
+Zomato,57,Desserts,piece,Haldiram's,Rasgulla (2pcs),39.0,2.0,2.0,name,19.5,39.0,A_exact,False,False,0.25
+Zomato,57,Desserts,piece,Kaleva All Day Diner,Rasgulla (2 Pc),42.0,2.0,2.0,name,21.0,42.0,A_exact,False,False,0.25
+Zomato,57,Desserts,piece,Kaleva,Sponge Rasgulla [2 Pcs],48.0,2.0,2.0,name,24.0,48.0,A_exact,False,False,0.25
+Zomato,57,Desserts,piece,Bangla Sweet House,Rasgulla [1 Pc],35.0,1.0,1.0,name,35.0,35.0,A_exact,False,False,0.25
+Zomato,59,Meals,piece,Chaayos Chai+Sna…,Aloo Pyaaz Paratha (1 pc),155.0,1.0,1.0,name,155.0,155.0,A_exact,False,False,0.25
+Zomato,59,Meals,piece,Wagh Bakri Tea Lounge,Loaded Aloo Pyaaz Paratha,249.0,1.0,,assumed,249.0,249.0,B_close,False,False,0.25
+Zomato,59,Meals,piece,Haldiram's,Aloo Pyaz Parantha With Curd - 1 pc,140.0,1.0,1.0,name,140.0,140.0,B_close,False,False,0.25
+Zomato,59,Meals,piece,Pind Balluchi,Tandoori Aloo Pyaaz Paratha,220.0,1.0,,assumed,220.0,220.0,B_close,False,False,0.25
+Zomato,60,All Day Breakfast,serving,Saravana Bhavan,Hot Idli (3 Pcs),157.14,1.0,3.0,basis_default,157.14,157.14,B_close,False,True,0.2
+Zomato,60,All Day Breakfast,serving,Punjab Sweet Corner,Idli Sambar (2pcs),129.0,1.0,2.0,basis_default,129.0,129.0,B_close,False,True,0.2
+Zomato,60,All Day Breakfast,serving,Kaleva,Idli Sambar,160.0,1.0,,assumed,160.0,160.0,B_close,False,True,0.2
+Zomato,60,All Day Breakfast,serving,Haldiram's,Idli Sambhar - 4 pcs,173.0,1.0,4.0,basis_default,173.0,173.0,B_close,False,True,0.2
+Zomato,60,All Day Breakfast,serving,Nathu's Sweets,Idli Sambhar [2 Pieces],149.0,1.0,2.0,basis_default,149.0,149.0,B_close,False,True,0.2
+Zomato,62,All Day Breakfast,serving,Chaayos Chai+Sna…,Mom's Poha,149.0,1.0,,assumed,149.0,149.0,B_close,False,False,0.2
+Zomato,62,All Day Breakfast,serving,One Tap Biryani,Poha,174.9,1.0,,assumed,174.9,174.9,B_close,False,False,0.2
+Zomato,62,All Day Breakfast,serving,Khichdi Hub,Poha With Sev,176.0,1.0,,assumed,176.0,176.0,B_close,False,False,0.2
+Zomato,62,All Day Breakfast,serving,Chai Point,Poha,79.5,1.0,,assumed,79.5,79.5,B_close,False,False,0.2
+Zomato,62,All Day Breakfast,serving,Northern Flavours,Vegetable Poha,170.1,1.0,,assumed,170.1,170.1,B_close,False,False,0.2
+Zomato,68,Chaat Specials,serving,Wagh Bakri Tea Lounge,Samosa chaat,219.0,1.0,,assumed,219.0,219.0,B_close,False,False,0.16666666666666666
+Zomato,68,Chaat Specials,serving,Kaleva,Samosa Chaat,105.0,1.0,,assumed,105.0,105.0,B_close,False,False,0.16666666666666666
+Zomato,68,Chaat Specials,serving,Kota Kachori - Falahaar,Samosa Chaat,85.0,1.0,,assumed,85.0,85.0,B_close,False,False,0.16666666666666666
+Zomato,68,Chaat Specials,serving,Kota Kachori - Falahaar,Falahaari samosa chaat,85.0,1.0,,assumed,85.0,85.0,C_loose,False,False,0.16666666666666666
+Zomato,68,Chaat Specials,serving,Samosa Party,Dahi Samosa Chaat,149.0,1.0,,assumed,149.0,149.0,B_close,False,False,0.16666666666666666
+Zomato,68,Chaat Specials,serving,Temple Street,Samosa Chaat,239.0,1.0,,assumed,239.0,239.0,B_close,False,False,0.16666666666666666
+Zomato,71,Coolers & Shakes,ml,Chaayos Chai+Snacks=Relax,Lemon Iced Tea,209.0,300.0,,description,0.6966666666666667,209.0,A_exact,False,False,0.5
+Zomato,71,Coolers & Shakes,ml,Wendy's Burgers,Lemon Ice Tea (250 mL),89.0,250.0,,name,0.356,89.0,A_exact,False,False,0.5
+Zomato,75,Soft Drinks & Juices,serving,Tossin Pizza,Diet Coke Can,50.0,1.0,,assumed,50.0,50.0,B_close,False,False,0.5
+Zomato,75,Soft Drinks & Juices,serving,Krispy Kreme - Doughnuts & Coffee,Coke Diet Can,66.0,1.0,,assumed,66.0,66.0,B_close,False,False,0.5
+Swiggy,1,Meals,serving,Biryani Blues,Chicken Dum Biryani Boneless Bowl + Raita,219.0,1.0,,assumed,219.0,219.0,B_close,False,False,0.3333333333333333
+Swiggy,1,Meals,serving,The Biryani Life,Hyderabadi Dum Chicken Biryani,229.0,1.0,,assumed,229.0,229.0,B_close,False,False,0.3333333333333333
+Swiggy,1,Meals,serving,Bikkgane Biryani,Chicken Dum Boneless Biryani Bowl,279.0,1.0,,assumed,279.0,279.0,B_close,True,False,0.3333333333333333
+Swiggy,4,Meals,serving,DiabeSmart - Sugarfree Foods,Chicken Keema Pav - Diabetic Friendly,319.0,1.0,,assumed,319.0,319.0,B_close,False,False,0.2
+Swiggy,4,Meals,serving,Brew & Bites,Chicken Keema & Pav,325.0,1.0,,assumed,325.0,325.0,B_close,False,False,0.2
+Swiggy,4,Meals,serving,Good Meat Hub,Chicken Keema Pav [ 2 Pav],329.0,1.0,,assumed,329.0,329.0,B_close,True,False,0.2
+Swiggy,4,Meals,serving,Social,Chicken Keema Pao Tiffin,199.0,1.0,,assumed,199.0,199.0,B_close,True,False,0.2
+Swiggy,4,Meals,serving,ATH - All Things Healthy!,Chicken Keema Pav - High Protein,339.0,1.0,,assumed,339.0,339.0,B_close,True,False,0.2
+Swiggy,5,Meals,serving,Haldiram's,Rajma chawal,161.0,1.0,,assumed,161.0,161.0,B_close,True,False,0.2
+Swiggy,5,Meals,serving,Jain Chawal Wale,Rajma Chawal,130.0,1.0,,assumed,130.0,130.0,B_close,False,False,0.2
+Swiggy,5,Meals,serving,Ghee and Turmeric,Desi Ghee Rajma Rice Bowl,229.0,1.0,,assumed,229.0,229.0,B_close,False,False,0.2
+Swiggy,5,Meals,serving,Swagat Dhaba,Rajma Rice Mixed,109.0,1.0,,assumed,109.0,109.0,B_close,False,False,0.2
+Swiggy,5,Meals,serving,Bengal Sweet Corner,Rajma Rice,175.0,1.0,,assumed,175.0,175.0,B_close,True,False,0.2
+Swiggy,8,Meals,serving,Zoca Diner,Dal Tadka With Jeera Rice And Salad,319.0,1.0,,assumed,319.0,319.0,B_close,True,False,0.25
+Swiggy,8,Meals,serving,Chatpatta Swaad,Dal tadka with rice and pickle,149.0,1.0,,assumed,149.0,149.0,C_loose,False,False,0.25
+Swiggy,8,Meals,serving,Ghee and Turmeric,Dal Tadka Rice Bowl,197.0,1.0,,assumed,197.0,197.0,B_close,False,False,0.25
+Swiggy,8,Meals,serving,Khichdi Hub,Dal Tadka & Plain Rice,149.0,1.0,,assumed,149.0,149.0,B_close,False,False,0.25
+Swiggy,10,Quick Bites,piece,Nashville Fried Chicken - NFC,Hot N Spicy Fried Chicken 2 Pcs,249.0,2.0,2.0,name,124.5,249.0,A_exact,True,False,0.2
+Swiggy,10,Quick Bites,piece,KFC,Hot & Crispy Chicken -2pc,248.57,2.0,2.0,name,124.285,248.57,A_exact,False,False,0.2
+Swiggy,10,Quick Bites,piece,Delhi Darbar,Crispy Chicken Fried,450.0,1.0,,assumed,450.0,450.0,B_close,False,False,0.2
+Swiggy,10,Quick Bites,piece,Nazeer Foods,Crispy Fried Chicken,279.0,1.0,,assumed,279.0,279.0,B_close,False,False,0.2
+Swiggy,10,Quick Bites,piece,Pind Balluchi,CRISPY FRIED CHICKEN (4 PCS),449.0,4.0,4.0,name,112.25,449.0,A_exact,False,False,0.2
+Swiggy,14,Quick Bites,serving,Burger Singh(Big Punjabi Burgers),Chicken Popcorn (Karare Murgh Pops),229.0,1.0,,assumed,229.0,229.0,B_close,False,False,0.25
+Swiggy,14,Quick Bites,serving,out of the box  courtyard,Crispy Chicken Popcorn,620.0,1.0,,assumed,620.0,620.0,B_close,False,False,0.25
+Swiggy,14,Quick Bites,serving,Buff Grill,Chicken Popcorn  [10 Pcs],129.0,1.0,10.0,basis_default,129.0,129.0,B_close,False,False,0.25
+Swiggy,14,Quick Bites,serving,Al Yousuf,Chicken Popcorn 10 pcs,160.0,1.0,10.0,basis_default,160.0,160.0,B_close,False,False,0.25
+Swiggy,16,Quick Bites,serving,Student's Cafe,Veg Spring Roll,57.0,1.0,,assumed,57.0,57.0,B_close,False,False,0.5
+Swiggy,16,Quick Bites,serving,Shawarma Wala,Veg Spring Roll,119.0,1.0,,assumed,119.0,119.0,B_close,False,False,0.5
+Swiggy,17,Quick Bites,piece,Bhoj Restaurant,Mix veg pakoda,129.0,1.0,,assumed,129.0,129.0,B_close,True,False,0.2
+Swiggy,17,Quick Bites,piece,Curry Nation,Mix Veg Pakora [12 pieces],345.0,12.0,12.0,name,28.75,345.0,A_exact,False,False,0.2
+Swiggy,17,Quick Bites,piece,Khandani,Mix Veg Pakora,19.0,1.0,,assumed,19.0,19.0,B_close,True,False,0.2
+Swiggy,17,Quick Bites,piece,Wagh Bakri Tea Lounge,Mix pakoda,259.0,1.0,,assumed,259.0,259.0,B_close,False,False,0.2
+Swiggy,17,Quick Bites,piece,Mohan Dhaba,Mix Pakora,150.0,1.0,,assumed,150.0,150.0,B_close,True,False,0.2
+Swiggy,19,Quick Bites,serving,Louis Burger,Peri Peri Fries,189.0,1.0,,assumed,189.0,189.0,B_close,True,False,0.2
+Swiggy,19,Quick Bites,serving,Burger King,Peri Peri Fries (R),59.0,1.0,,assumed,59.0,59.0,B_close,False,False,0.2
+Swiggy,19,Quick Bites,serving,Nashville Fried Chicken - NFC,Peri Peri Fries,159.0,1.0,,assumed,159.0,159.0,B_close,True,False,0.2
+Swiggy,19,Quick Bites,serving,The Burger Club,Peri Peri Fries,119.0,1.0,,assumed,119.0,119.0,B_close,False,False,0.2
+Swiggy,19,Quick Bites,serving,Good Flippin' Burgers,Peri Fries,165.0,1.0,,assumed,165.0,165.0,B_close,True,False,0.2
+Swiggy,25,Quick Bites,serving,Chaayos Chai+Snacks=Relax,Cheese Masala Maggi,199.0,1.0,,assumed,199.0,199.0,B_close,False,False,0.14285714285714285
+Swiggy,25,Quick Bites,serving,Home Food Hub,Cheese Maggi,175.0,1.0,,assumed,175.0,175.0,B_close,True,False,0.14285714285714285
+Swiggy,25,Quick Bites,serving,Good Meat Hub,Plain Cheese Maggi,159.0,1.0,,assumed,159.0,159.0,B_close,True,False,0.14285714285714285
+Swiggy,25,Quick Bites,serving,Chai Point,Korean Chilli Cheese - Made with Maggi,169.0,1.0,,assumed,169.0,169.0,B_close,False,False,0.14285714285714285
+Swiggy,25,Quick Bites,serving,FLAVORA by Falak,Cheese Maggi,129.0,1.0,,assumed,129.0,129.0,B_close,False,False,0.14285714285714285
+Swiggy,25,Quick Bites,serving,Penta Cafeteria,Cheese Maggi,69.0,1.0,,assumed,69.0,69.0,B_close,True,False,0.14285714285714285
+Swiggy,25,Quick Bites,serving,Super Chai,Cheese Maggi,159.0,1.0,,assumed,159.0,159.0,B_close,False,False,0.14285714285714285
+Swiggy,26,Quick Bites,serving,Samosa Party,Cheesy Vada Pav,109.0,1.0,,assumed,109.0,109.0,B_close,True,False,0.16666666666666666
+Swiggy,26,Quick Bites,serving,Karigari - By Chef Harpal Singh S...,Cheesy Vada Pav,395.0,1.0,,assumed,395.0,395.0,B_close,False,False,0.16666666666666666
+Swiggy,26,Quick Bites,serving,Bole To Vadapav,Asli Cheese Vadapav,59.0,1.0,,assumed,59.0,59.0,B_close,False,False,0.16666666666666666
+Swiggy,26,Quick Bites,serving,Jay Bhavani Vadapav,Jb vadapav cheese,105.0,1.0,,assumed,105.0,105.0,B_close,True,False,0.16666666666666666
+Swiggy,26,Quick Bites,serving,Namah 25 Degree North Xpress,Cheese Vada Pav,60.0,1.0,,assumed,60.0,60.0,B_close,False,False,0.16666666666666666
+Swiggy,26,Quick Bites,serving,Kadhai Nama,Cheese Vada Pav,99.0,1.0,,assumed,99.0,99.0,B_close,False,False,0.16666666666666666
+Swiggy,28,Quick Bites,serving,Fire & Ice Restaurant,Boiled Egg,93.15,1.0,,assumed,93.15,93.15,B_close,False,False,0.3333333333333333
+Swiggy,28,Quick Bites,serving,Cha Bar,Boiled Egg,150.0,1.0,,assumed,150.0,150.0,B_close,False,False,0.3333333333333333
+Swiggy,28,Quick Bites,serving,Saravanaa Mess,Boiled Egg,50.0,1.0,,assumed,50.0,50.0,B_close,False,False,0.3333333333333333
+Swiggy,32,Quick Bites,piece,Bengal Sweet Corner,Samosa (1 Pc),22.0,1.0,1.0,name,22.0,22.0,A_exact,True,False,0.2
+Swiggy,32,Quick Bites,piece,Nukkad Ramji Samosa Wala,Aloo samosa,19.0,1.0,,assumed,19.0,19.0,B_close,False,False,0.2
+Swiggy,32,Quick Bites,piece,Kota Kachori And Falahaar,Aloo Samosa,35.0,1.0,,assumed,35.0,35.0,B_close,False,False,0.2
+Swiggy,32,Quick Bites,piece,Om di Hatti(Kamla Nagar),Aloo Samosa (2 Pc),39.0,2.0,2.0,name,19.5,39.0,A_exact,True,False,0.2
+Swiggy,32,Quick Bites,piece,Bangla Sweet House,Samosa,25.0,1.0,,assumed,25.0,25.0,B_close,False,False,0.2
+Swiggy,44,"Sandwich, Rolls & Burgers",serving,BOSS Burger,Og Grilled Chicken Burger,349.0,1.0,,assumed,349.0,349.0,B_close,True,False,0.25
+Swiggy,44,"Sandwich, Rolls & Burgers",serving,Social,Og Grilled Chicken Burger,349.0,1.0,,assumed,349.0,349.0,B_close,False,False,0.25
+Swiggy,44,"Sandwich, Rolls & Burgers",serving,Mocha,Og Grilled Chicken Burger,395.0,1.0,,assumed,395.0,395.0,B_close,False,False,0.25
+Swiggy,44,"Sandwich, Rolls & Burgers",serving,Bomb Burgers by Moets,The OG Smash Chicken Burger,325.0,1.0,,assumed,325.0,325.0,B_close,False,False,0.25
+Swiggy,45,"Sandwich, Rolls & Burgers",serving,BOSS Burger,Og Veggie Aloolicious Burger,329.0,1.0,,assumed,329.0,329.0,B_close,False,False,0.25
+Swiggy,45,"Sandwich, Rolls & Burgers",serving,Social,Og Veggie Aloolicious Burger,329.0,1.0,,assumed,329.0,329.0,B_close,True,False,0.25
+Swiggy,45,"Sandwich, Rolls & Burgers",serving,Seoul Burgers & Shakes,The OG Veggie Burger,289.0,1.0,,assumed,289.0,289.0,B_close,True,False,0.25
+Swiggy,45,"Sandwich, Rolls & Burgers",serving,Boba Bhai - Bubble Tea & Kore...,The OG Veggie Burger,158.0,1.0,,assumed,158.0,158.0,B_close,True,False,0.25
+Swiggy,46,Desserts,serving,Bengal Sweet Corner,Malai Ghewar,495.0,1.0,,assumed,495.0,495.0,B_close,True,False,0.25
+Swiggy,46,Desserts,serving,Bangla Sweet House,Malai Ghewar,450.0,1.0,,assumed,450.0,450.0,B_close,False,False,0.25
+Swiggy,46,Desserts,serving,Nathu's Sweets,Malai Ghewar,285.0,1.0,,assumed,285.0,285.0,B_close,True,False,0.25
+Swiggy,46,Desserts,serving,Maddi sweet center,Malai GHEWAR,299.0,1.0,,assumed,299.0,299.0,B_close,True,False,0.25
+Swiggy,52,Desserts,piece,Bangla Sweet House,Kesar Rasmalai [1 Pc],70.0,1.0,1.0,name,70.0,70.0,A_exact,True,False,0.2
+Swiggy,52,Desserts,piece,Nathu's Sweets,Rasmalai [2 Pieces],120.0,2.0,2.0,name,60.0,120.0,A_exact,False,False,0.2
+Swiggy,52,Desserts,piece,Kaleva,Kesar Rasmalai [2 Pcs],180.0,2.0,2.0,name,90.0,180.0,A_exact,True,False,0.2
+Swiggy,52,Desserts,piece,Kaleva (All Day Diner),Kesar Rasmalai (2 Pc),135.0,2.0,2.0,name,67.5,135.0,A_exact,False,False,0.2
+Swiggy,52,Desserts,piece,Bengali Sweet Centre,Kesar Rasmalai,130.0,1.0,,assumed,130.0,130.0,B_close,True,False,0.2
+Swiggy,53,Desserts,serving,Bengal Sweet Corner,Moong Dal Halwa - 250gm,210.0,1.0,,assumed,210.0,210.0,B_close,True,False,0.14285714285714285
+Swiggy,53,Desserts,serving,Haldiram's,Moong Dal Halwa,246.0,1.0,,assumed,246.0,246.0,B_close,False,False,0.14285714285714285
+Swiggy,53,Desserts,serving,Barbeque Nation,Moong Dal Halwa,209.0,1.0,,assumed,209.0,209.0,B_close,True,False,0.14285714285714285
+Swiggy,53,Desserts,serving,Ghee and Turmeric,Moong Dal Halwa Desi Ghee,149.0,1.0,,assumed,149.0,149.0,B_close,False,False,0.14285714285714285
+Swiggy,53,Desserts,serving,Dum Safar Biryani,Moong Dal Halwa,179.0,1.0,,assumed,179.0,179.0,B_close,True,False,0.14285714285714285
+Swiggy,53,Desserts,serving,LunchBox - Meals and Thalis,Moong Dal Halwa,109.0,1.0,,assumed,109.0,109.0,B_close,False,False,0.14285714285714285
+Swiggy,53,Desserts,serving,"UBQ-Meals,Thalis & Bowls",Moong Dal Halwa,209.0,1.0,,assumed,209.0,209.0,B_close,True,False,0.14285714285714285
+Swiggy,55,Desserts,piece,Bengal Sweet Corner,Gulab Jamun (2 Pcs),76.0,2.0,2.0,name,38.0,76.0,A_exact,True,False,0.25
+Swiggy,55,Desserts,piece,Bikkgane Biryani,Gulab Jamun ( 1 Piece),49.0,1.0,1.0,name,49.0,49.0,A_exact,False,False,0.25
+Swiggy,55,Desserts,piece,Nathu's Sweets,Gulab Jamun,150.0,1.0,,assumed,150.0,150.0,B_close,False,False,0.25
+Swiggy,55,Desserts,piece,Kaleva,Gulab Jamun [2 Pcs],84.0,2.0,2.0,name,42.0,84.0,A_exact,False,False,0.25
+Swiggy,57,Desserts,piece,Kaleva,Sponge Rasgulla [2 Pcs],48.0,2.0,2.0,name,24.0,48.0,A_exact,True,False,0.16666666666666666
+Swiggy,57,Desserts,piece,Mithaivala,Sponge Rasgulla (1 Piece),22.0,1.0,1.0,name,22.0,22.0,A_exact,False,False,0.16666666666666666
+Swiggy,57,Desserts,piece,Bhoj Restaurant,Sponge Rasgulla,49.0,1.0,,assumed,49.0,49.0,B_close,True,False,0.16666666666666666
+Swiggy,57,Desserts,piece,Temple street,Sponge Rasgulla,49.0,1.0,,assumed,49.0,49.0,B_close,False,False,0.16666666666666666
+Swiggy,57,Desserts,piece,Maddi sweet center,Rasgulla Sponge,39.0,1.0,,assumed,39.0,39.0,B_close,True,False,0.16666666666666666
+Swiggy,57,Desserts,piece,Raj Sweets,Sponge rasgulla [2 pieces],70.0,2.0,2.0,name,35.0,70.0,A_exact,False,False,0.16666666666666666
+Swiggy,59,Meals,piece,Amritsariya,Aloo Pyaaz Parantha [single],45.0,1.0,,assumed,45.0,45.0,B_close,True,False,0.2
+Swiggy,59,Meals,piece,Chaayos Chai+Snacks=Relax,Aloo Pyaaz Paratha (1 pc),139.0,1.0,1.0,name,139.0,139.0,A_exact,False,False,0.2
+Swiggy,59,Meals,piece,Bengal Sweet Corner,ALOO PYAZ PARANTHA WITH,119.0,1.0,,assumed,119.0,119.0,B_close,True,False,0.2
+Swiggy,59,Meals,piece,Pind Balluchi,Aloo Pyaz Paratha,79.0,1.0,,assumed,79.0,79.0,B_close,False,False,0.2
+Swiggy,59,Meals,piece,Haldiram's,Aloo Pyaz Parantha With  Curd - 1 pc,140.0,1.0,1.0,name,140.0,140.0,B_close,True,False,0.2
+Swiggy,60,All Day Breakfast,serving,Saravanaa Mess,Idli Sambar,94.0,1.0,,assumed,94.0,94.0,B_close,True,True,0.25
+Swiggy,60,All Day Breakfast,serving,Haldiram's,Idli Sambhar - 4 pcs,173.0,1.0,4.0,basis_default,173.0,173.0,B_close,False,True,0.25
+Swiggy,60,All Day Breakfast,serving,Chidambaram's New Madras H...,Sambar Idly,162.0,1.0,,assumed,162.0,162.0,B_close,True,True,0.25
+Swiggy,60,All Day Breakfast,serving,Bengal Sweet Corner,Sambhar Idli (2 Pcs),150.0,1.0,2.0,basis_default,150.0,150.0,B_close,True,True,0.25
+Swiggy,62,All Day Breakfast,serving,Home Food Hub,Vegetable Poha,175.0,1.0,,assumed,175.0,175.0,B_close,True,False,0.25
+Swiggy,62,All Day Breakfast,serving,Healthy Chef,Veg Masala Poha {200 Gm} Serves 1,279.0,1.0,,name,279.0,279.0,A_exact,True,False,0.25
+Swiggy,62,All Day Breakfast,serving,Handi 47,Poha With Sev,184.0,1.0,,assumed,184.0,184.0,B_close,False,False,0.25
+Swiggy,62,All Day Breakfast,serving,S.S. Cafe,Vegetable poha,120.0,1.0,,assumed,120.0,120.0,B_close,False,False,0.25
+Swiggy,71,Coolers & Shakes,ml,Theobroma,Lemon Iced Tea [300 ml],99.0,300.0,,name,0.33,99.0,A_exact,True,False,1.0
+Swiggy,75,Soft Drinks & Juices,serving,Krispy Kreme - Doughnuts & Coffee,Coke Diet Can,66.0,1.0,,assumed,66.0,66.0,B_close,False,False,1.0

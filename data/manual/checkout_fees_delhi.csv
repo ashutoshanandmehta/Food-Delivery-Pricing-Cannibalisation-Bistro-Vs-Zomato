@@ -1,0 +1,5 @@
+platform,restaurant,capture_time,item_total,packaging_fee,delivery_fee,delivery_fee_struck,delivery_distance_km,platform_fee,convenience_fee,gst_and_other,order_discount,grand_total,wedge_pct,membership,source_file,notes
+Bistro,Bistro by Blinkit,2026-09-01 15:49,79,,0,25.0,,,3.0,,,82,0.038,none,Bistro Data/1788258116391.jpg,delivery shown struck through as FREE on a standing offer with no minimum order value
+Bistro,Bistro by Blinkit,2026-09-01 15:49,239,,0,25.0,,,3.0,,,242,0.013,none,Bistro Data/1788258116414.jpg,"items total 439 struck to 239; item_total is already net of that, so order_discount is blank to avoid double counting"
+Zomato,Chaayos Chai+Snacks=Relax,2026-09-01 19:22,149,19.37,59,,1.0,14.9,,21.72,,264,0.772,non-Gold,order summary/zomato.jpeg,"screen offers Renew Gold at Rs 1, so 59 is the non-member delivery fee; address flagged 379 km from device"
+Swiggy,One Tap Biryani,2026-09-01 19:05,184,,48,,2.4,,,74.82,15.0,292,0.587,none,order summary/swiggy.jpg,GST and other charges is a single bundled line; total 307 before a 15 discount

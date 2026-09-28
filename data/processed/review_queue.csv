@@ -1,0 +1,2 @@
+quarter,field,prev_value,value,qoq_change,band,reviewed,explanation
+Q4FY25,others_adj_ebitda,1.0,-16.0,-17.0,"[-3.0, 3.0]",True,"Legitimate sign flip on a tiny base. Others adjusted EBITDA moved from +1 cr to -16 cr as Bistro investment began; Others revenue that quarter was 1 cr, so any absolute swing is a large ratio. Verified against the Q4FY25 letter Annexure A. Not a parse error."

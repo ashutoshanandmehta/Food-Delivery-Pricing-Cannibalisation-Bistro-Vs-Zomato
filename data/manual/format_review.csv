@@ -1,0 +1,255 @@
+row_id,matched_id,section,bistro_item,bistro_qty,bistro_price,platform,restaurant,listing,listing_desc,listing_qty,listing_price,already_manually_rejected,verdict,reason,coder
+133,1,Meals,Chicken Dum Biryani (Boneless),Serves 1,259,Swiggy,Bikkgane Biryani,Chicken Dum Boneless Biryani Bowl,,,279.0,False,keep,,claude
+130,1,Meals,Chicken Dum Biryani (Boneless),Serves 1,259,Swiggy,Biryani Blues,Chicken Dum Biryani Boneless Bowl + Raita,,,219.0,False,keep,,claude
+131,1,Meals,Chicken Dum Biryani (Boneless),Serves 1,259,Swiggy,Dum Safar Biryani,Half Boneless Chicken Dum Biryani,,Half,269.1,False,reject_format,half portion against a Serves 1 Bistro dish,claude
+132,1,Meals,Chicken Dum Biryani (Boneless),Serves 1,259,Swiggy,The Biryani Life,Hyderabadi Dum Chicken Biryani,,,229.0,False,keep,,claude
+1,1,Meals,Chicken Dum Biryani (Boneless),Serves 1,259,Zomato,Dum Safar Biryani,Half Chicken Dum Biryani,"Satiate yourself with tender, juicy chicken pieces marinated in exquisite in-hous...more",Half,289.0,False,reject_format,half portion against a Serves 1 Bistro dish,claude
+4,3,Meals,Paneer Makhani Biryani,Serves 1,239,Zomato,Aflatoon-By Social,Paneer Makhni Biryani,"No Confusion, Delightful Combination! Fragrant Biryani Layered With Succul...more",,650.0,False,keep,,claude
+2,3,Meals,Paneer Makhani Biryani,Serves 1,239,Zomato,Biryani By CTJ,Paneer Makhani Biryani,,,395.0,False,keep,,claude
+3,3,Meals,Paneer Makhani Biryani,Serves 1,239,Zomato,Charcoal Eats - Biryani & Beyond,Paneer Makhani Biryani Bowl,(Full-Flavoured & Smooth) Soft Paneer (100% certified) gently simmered i...more,,279.3,False,keep,,claude
+138,4,Meals,Chicken Keema Pav,Serves 1,189,Swiggy,ATH - All Things Healthy!,Chicken Keema Pav - High Protein,42g protein • High Protein,,339.0,False,keep,,claude
+135,4,Meals,Chicken Keema Pav,Serves 1,189,Swiggy,Brew & Bites,Chicken Keema & Pav,,,325.0,False,keep,,claude
+134,4,Meals,Chicken Keema Pav,Serves 1,189,Swiggy,DiabeSmart - Sugarfree Foods,Chicken Keema Pav - Diabetic Friendly,62g protein • 690 kcal,,319.0,False,keep,,claude
+136,4,Meals,Chicken Keema Pav,Serves 1,189,Swiggy,Good Meat Hub,Chicken Keema Pav [ 2 Pav],,[ 2 Pav],329.0,False,keep,,claude
+137,4,Meals,Chicken Keema Pav,Serves 1,189,Swiggy,Social,Chicken Keema Pao Tiffin,,,199.0,False,keep,,claude
+6,4,Meals,Chicken Keema Pav,Serves 1,189,Zomato,SMS Kolkata Biriyani House,Chicken Keema Pav [2 Pav],"Chicken breast [100 g], street style tadka and buttery pav.",[2 Pav]; [100 g],160.0,False,keep,,claude
+5,4,Meals,Chicken Keema Pav,Serves 1,189,Zomato,Surkhaab,Chicken Keema Pao,"Spiced chicken mince topped with finel chopped onions, served with soft handmade mini pao",,465.0,False,keep,,claude
+7,4,Meals,Chicken Keema Pav,Serves 1,189,Zomato,The Food Stop,Chicken Keema Pav,Served with salad [Subject to availability].,,298.0,False,keep,,claude
+8,4,Meals,Chicken Keema Pav,Serves 1,189,Zomato,The Postman Kitchen,Chicken Keema Pav,"Succulent spiced chicken keema simmered to perfection, served with buttery toa...more",,240.0,False,keep,,claude
+144,5,Meals,Rajma Rice,Serves 1,159,Swiggy,Bengal Sweet Corner,Rajma Rice,,,175.0,False,keep,,claude
+142,5,Meals,Rajma Rice,Serves 1,159,Swiggy,Ghee and Turmeric,Desi Ghee Rajma Rice Bowl,,,229.0,False,keep,,claude
+139,5,Meals,Rajma Rice,Serves 1,159,Swiggy,Haldiram's,Rajma chawal,17g protein • 475 kcal,,161.0,False,keep,,claude
+140,5,Meals,Rajma Rice,Serves 1,159,Swiggy,Jain Chawal Wale,Rajma Chawal,,,130.0,False,keep,,claude
+143,5,Meals,Rajma Rice,Serves 1,159,Swiggy,Swagat Dhaba,Rajma Rice Mixed,,,109.0,False,keep,,claude
+141,5,Meals,Rajma Rice,Serves 1,159,Swiggy,"UBQ-Meals,Thalis & Bowls",Rajma Mini Rice Bowl,,,179.0,False,reject_format,mini bowl is a smaller portion object,claude
+12,5,Meals,Rajma Rice,Serves 1,159,Zomato,Annapurna Bhojnalya,Rajma Masala Rice Bowl,Delightfully delectable and flavorsome preparation of red kidney beans cooke...more,,299.0,False,keep,,claude
+13,5,Meals,Rajma Rice,Serves 1,159,Zomato,Annapurna Bhojnalya,Rajma Rice Bowl,"Classic Punjabi rajma served with steamed rice for a homestyle, hearty meal.",,219.0,False,keep,,claude
+14,5,Meals,Rajma Rice,Serves 1,159,Zomato,Apna Dhaba,Rajma Rice Bowl,"An earthy red rice bowl featuring rajma masala, soya matar sabzi, and a refreshin...more",,189.0,False,keep,,claude
+9,5,Meals,Rajma Rice,Serves 1,159,Zomato,Ghee and Turmeric,Desi Ghee Rajma Rice Bowl,Experience the comforting flavors of our Rajma Masala served with Signature Rice,,229.0,False,keep,,claude
+10,5,Meals,Rajma Rice,Serves 1,159,Zomato,NH1 Bowls - Highway To North,Delhi-6 Rajma Rice Bowl,Rice + Delhi-style Rajma slow-cooked in a tangy curry + Green Chutney + Gar...more,,239.0,False,keep,,claude
+11,5,Meals,Rajma Rice,Serves 1,159,Zomato,"UBQ-Meals,Thalis & Bowls",Rajma Chawal Bowl,Savor authentic Rajma Chawal served half and half with steamed b...more,,289.0,False,keep,,claude
+15,7,Meals,Chole Kulche,Serves 1,149,Zomato,Haldiram's,Amritsari Choley Aur Kulche (2 pcs),Enjoy the authentic flavors of Amritsari Choley served with soft and fluffy Kulch...more,(2 pcs),216.0,False,keep,,claude
+146,8,Meals,Yellow Dal Tadka & Rice,Serves 1,149,Swiggy,Chatpatta Swaad,Dal tadka with rice and pickle,,,149.0,False,keep,,claude
+147,8,Meals,Yellow Dal Tadka & Rice,Serves 1,149,Swiggy,Ghee and Turmeric,Dal Tadka Rice Bowl,,,197.0,False,keep,,claude
+148,8,Meals,Yellow Dal Tadka & Rice,Serves 1,149,Swiggy,Khichdi Hub,Dal Tadka & Plain Rice,,,149.0,False,keep,,claude
+145,8,Meals,Yellow Dal Tadka & Rice,Serves 1,149,Swiggy,Zoca Diner,Dal Tadka With Jeera Rice And Salad,,,319.0,False,keep,,claude
+151,10,Quick Bites,Crispy Fried Chicken,2 Pieces,249,Swiggy,Delhi Darbar,Crispy Chicken Fried,,,450.0,False,keep,,claude
+150,10,Quick Bites,Crispy Fried Chicken,2 Pieces,249,Swiggy,KFC,Hot & Crispy Chicken -2pc,38g protein • 640 kcal,-2pc,248.57,False,keep,,claude
+149,10,Quick Bites,Crispy Fried Chicken,2 Pieces,249,Swiggy,Nashville Fried Chicken - NFC,Hot N Spicy Fried Chicken 2 Pcs,,2 Pcs,249.0,False,keep,,claude
+152,10,Quick Bites,Crispy Fried Chicken,2 Pieces,249,Swiggy,Nazeer Foods,Crispy Fried Chicken,,,279.0,False,keep,,claude
+153,10,Quick Bites,Crispy Fried Chicken,2 Pieces,249,Swiggy,Pind Balluchi,CRISPY FRIED CHICKEN (4 PCS),,(4 PCS),449.0,False,keep,,claude
+17,10,Quick Bites,Crispy Fried Chicken,2 Pieces,249,Zomato,Delhi Darbar Dhaba,Crispy Chicken Fried,"Succulent chicken pieces left overnight in marination, dusted and then crispy fried.",,450.0,False,keep,,claude
+19,10,Quick Bites,Crispy Fried Chicken,2 Pieces,249,Zomato,Dripping Dose,Crispy Fried Prprika Chicken,"Tender, Juicy And Flavorful On The Inside, Extra Crispy On The Outside, These ...more",,365.0,False,keep,,claude
+16,10,Quick Bites,Crispy Fried Chicken,2 Pieces,249,Zomato,KFC,Hot & Crispy Chicken - 8 pcs,Save Rs. 123 & get 8pc signature Hot & crispy chicken [serves 3-4],8 pcs; 8pc; [serves 3-4],683.24,False,keep,,claude
+18,10,Quick Bites,Crispy Fried Chicken,2 Pieces,249,Zomato,Wang House Korean Street Food Cafe,Crispy Boneless Fried Chicken - 8 Pcs,Crispy Fried Boneless Chicken is a Korean favorite- juicy chicken bites coated in a li...more,8 Pcs,475.0,False,keep,,claude
+157,14,Quick Bites,Crispy Chicken Popcorn,Serves 1,179,Swiggy,Al Yousuf,Chicken Popcorn 10 pcs,,10 pcs,160.0,False,keep,,claude
+156,14,Quick Bites,Crispy Chicken Popcorn,Serves 1,179,Swiggy,Buff Grill,Chicken Popcorn  [10 Pcs],,[10 Pcs],129.0,False,keep,,claude
+154,14,Quick Bites,Crispy Chicken Popcorn,Serves 1,179,Swiggy,Burger Singh(Big Punjabi Burgers),Chicken Popcorn (Karare Murgh Pops),,,229.0,False,keep,,claude
+155,14,Quick Bites,Crispy Chicken Popcorn,Serves 1,179,Swiggy,out of the box  courtyard,Crispy Chicken Popcorn,,,620.0,False,keep,,claude
+21,14,Quick Bites,Crispy Chicken Popcorn,Serves 1,179,Zomato,Hot Pot Fast Food,Crispy Chicken Popcorn,"Crispy and crunchy fried chicken popcorn, a dish with an explosion of flavors in your mouth.",,290.0,False,keep,,claude
+22,14,Quick Bites,Crispy Chicken Popcorn,Serves 1,179,Zomato,Nosher's,Crispy Chicken Popcorn,,,280.0,False,keep,,claude
+20,14,Quick Bites,Crispy Chicken Popcorn,Serves 1,179,Zomato,Out Of The Box Courtyard,Crispy Chicken Popcorn,Chicken Popcorn With Homemade Dip,,620.0,False,keep,,claude
+23,14,Quick Bites,Crispy Chicken Popcorn,Serves 1,179,Zomato,The Chef Cart,Chicken Hot and Crispy Popcorn,Our crispy and savory chicken hot and crispy popcorn is a delicious and crispy snack perfect for sharing with your friends and fam...more,,170.0,False,keep,,claude
+159,16,Quick Bites,Desi Veg Spring Rolls,4 Pieces,169,Swiggy,Shawarma Wala,Veg Spring Roll,,,119.0,False,keep,,claude
+158,16,Quick Bites,Desi Veg Spring Rolls,4 Pieces,169,Swiggy,Student's Cafe,Veg Spring Roll,,,57.0,False,keep,,claude
+160,17,Quick Bites,Chatpata Mix Veg Pakora,11 Pieces,159,Swiggy,Bhoj Restaurant,Mix veg pakoda,,,129.0,False,keep,,claude
+161,17,Quick Bites,Chatpata Mix Veg Pakora,11 Pieces,159,Swiggy,Curry Nation,Mix Veg Pakora [12 pieces],,[12 pieces],345.0,False,keep,,claude
+162,17,Quick Bites,Chatpata Mix Veg Pakora,11 Pieces,159,Swiggy,Khandani,Mix Veg Pakora,,,19.0,False,keep,,claude
+164,17,Quick Bites,Chatpata Mix Veg Pakora,11 Pieces,159,Swiggy,Mohan Dhaba,Mix Pakora,,,150.0,False,keep,,claude
+163,17,Quick Bites,Chatpata Mix Veg Pakora,11 Pieces,159,Swiggy,Wagh Bakri Tea Lounge,Mix pakoda,,,259.0,False,keep,,claude
+24,17,Quick Bites,Chatpata Mix Veg Pakora,11 Pieces,159,Zomato,Bhoj Restaurant,Mixed Veg Pakoda [250 grams],[250 Grams],[250 grams],119.0,False,reject_format,"sold by weight with no piece count, dish basis is pieces",claude
+26,17,Quick Bites,Chatpata Mix Veg Pakora,11 Pieces,159,Zomato,Curry Nation,Mix Veg Pakora [12 pieces],A crispy mix of assorted vegetables dipped in seasoned gram flour batter an...more,[12 pieces],345.0,False,keep,,claude
+25,17,Quick Bites,Chatpata Mix Veg Pakora,11 Pieces,159,Zomato,Tempting Delight,Mix Veg Pakoda [10 Pieces],Mix vegetable pakoda Aloo Gobi Palak etc.,[10 Pieces],227.5,False,keep,,claude
+27,17,Quick Bites,Chatpata Mix Veg Pakora,11 Pieces,159,Zomato,chawla sweets corner,Mix Veg Pakoda,"Mix vegetable pakoda, aloo, gobi, palak etc.",,100.0,False,keep,,claude
+166,19,Quick Bites,Crispy Peri Peri Fries,Serves 2,149,Swiggy,Burger King,Peri Peri Fries (R),,(R),59.0,False,keep,,claude
+169,19,Quick Bites,Crispy Peri Peri Fries,Serves 2,149,Swiggy,Good Flippin' Burgers,Peri Fries,,,165.0,False,keep,,claude
+165,19,Quick Bites,Crispy Peri Peri Fries,Serves 2,149,Swiggy,Louis Burger,Peri Peri Fries,,,189.0,False,keep,,claude
+167,19,Quick Bites,Crispy Peri Peri Fries,Serves 2,149,Swiggy,Nashville Fried Chicken - NFC,Peri Peri Fries,,,159.0,False,keep,,claude
+168,19,Quick Bites,Crispy Peri Peri Fries,Serves 2,149,Swiggy,The Burger Club,Peri Peri Fries,,,119.0,False,keep,,claude
+33,19,Quick Bites,Crispy Peri Peri Fries,Serves 2,149,Zomato,Burger King,2BK Veggie Burger +2Peri Peri Fries(R),2BK Veggie+2Peri Peri Fries( R),2Peri Peri Fries(R),257.0,False,reject_format,meal combo bundling a burger or a drink,claude
+34,19,Quick Bites,Crispy Peri Peri Fries,Serves 2,149,Zomato,Burger King,Peri Peri Fries (R),Crispy Fries with Tangy Peri Peri Spice,(R),59.0,False,keep,,claude
+29,19,Quick Bites,Crispy Peri Peri Fries,Serves 2,149,Zomato,Louis Burger,Truffle Shroom Burger + Peri Peri Fries + Hot Sauce,"Get a Complete Meal of 1 Burger, Peri Peri Fries(Regular) & Hot Sauce",1 Burger,543.15,False,reject_format,meal combo bundling a burger or a drink,claude
+30,19,Quick Bites,Crispy Peri Peri Fries,Serves 2,149,Zomato,Starbucks Coffee,Cheese Peri Peri Pop Fries,Pop potato fries with a spicy peri peri seasoning and cheesy topping. Per serve...more,,195.0,False,reject_format,"cheesy or pop fries, Bistro sells plain peri peri fries",claude
+31,19,Quick Bites,Crispy Peri Peri Fries,Serves 2,149,Zomato,Starbucks Coffee,Tall Cold Coffee with Cheese Peri Peri Pop Fries,Everybody's favourite indulgence.,Tall,525.0,False,reject_format,meal combo bundling a burger or a drink,claude
+28,19,Quick Bites,Crispy Peri Peri Fries,Serves 2,149,Zomato,The Cheese Company - By Xero Degrees,Peri Peri Cheesy Fries ( Must Try ),Crispy Fries Drenched In Cheese With A Spicy Peri Peri Twist.,,269.0,False,reject_format,"cheesy or pop fries, Bistro sells plain peri peri fries",claude
+32,19,Quick Bites,Crispy Peri Peri Fries,Serves 2,149,Zomato,Xero Degrees,Peri Peri Cheesy Fries ( Must Try ),Crispy fries drenched in cheese with a spicy peri peri twist.,,359.0,False,reject_format,"cheesy or pop fries, Bistro sells plain peri peri fries",claude
+174,22,Quick Bites,Masala Dosa Pops,10 Pieces,149,Swiggy,Bengal Sweet Corner,Masala Dosa,,,218.0,True,reject_format,"Bistro sells ten snack sized dosa bites, the search returned full masala dosas",claude
+170,22,Quick Bites,Masala Dosa Pops,10 Pieces,149,Swiggy,Hotel Saravana Bhavan,Masala Dosa,,,185.71,True,reject_format,"Bistro sells ten snack sized dosa bites, the search returned full masala dosas",claude
+172,22,Quick Bites,Masala Dosa Pops,10 Pieces,149,Swiggy,Sagar Ratna,Masala Dosa,,,195.0,True,reject_format,"Bistro sells ten snack sized dosa bites, the search returned full masala dosas",claude
+171,22,Quick Bites,Masala Dosa Pops,10 Pieces,149,Swiggy,Saravanaa Mess,Masala Dosa,,,140.0,True,reject_format,"Bistro sells ten snack sized dosa bites, the search returned full masala dosas",claude
+173,22,Quick Bites,Masala Dosa Pops,10 Pieces,149,Swiggy,Udupi Krishna ( Kamla Nagar ),Masala Dosa,,,205.0,True,reject_format,"Bistro sells ten snack sized dosa bites, the search returned full masala dosas",claude
+36,22,Quick Bites,Masala Dosa Pops,10 Pieces,149,Zomato,Cafe Amudham,Ghee Podi Masala Dosa,"Appetizing Dosa Enriched With Nandini Ghee, Potato Masala & Pudi As A Topping...more",,266.0,True,reject_format,"Bistro sells ten snack sized dosa bites, the search returned full masala dosas",claude
+37,22,Quick Bites,Masala Dosa Pops,10 Pieces,149,Zomato,Cafe Amudham,Benne Masala Dosa,"As Mouthwateringly Tasty As Visually Pleasing This Dosa Made With Rich Benne, P...more",,266.0,True,reject_format,"Bistro sells ten snack sized dosa bites, the search returned full masala dosas",claude
+43,22,Quick Bites,Masala Dosa Pops,10 Pieces,149,Zomato,Haldiram's,Special Masala Dosa,Haldiram's iconic South Indian dish features a crispy dosa filled with flavourful po...more,,285.0,True,reject_format,"Bistro sells ten snack sized dosa bites, the search returned full masala dosas",claude
+44,22,Quick Bites,Masala Dosa Pops,10 Pieces,149,Zomato,Haldiram's,Masala Dosa,Masala Dosa is a beloved South Indian dish known for its crispy,,278.0,True,reject_format,"Bistro sells ten snack sized dosa bites, the search returned full masala dosas",claude
+40,22,Quick Bites,Masala Dosa Pops,10 Pieces,149,Zomato,Kala Cafe,Paneer Butter Masala Dosa,,,275.0,True,reject_format,"Bistro sells ten snack sized dosa bites, the search returned full masala dosas",claude
+38,22,Quick Bites,Masala Dosa Pops,10 Pieces,149,Zomato,Punjab Sweet Corner,Masala Dosa,Classic dosa filled with a comforting potato masala. Served with coconut...more,,199.0,True,reject_format,"Bistro sells ten snack sized dosa bites, the search returned full masala dosas",claude
+39,22,Quick Bites,Masala Dosa Pops,10 Pieces,149,Zomato,Punjab Sweet Corner,Rawa Masala Dosa,A crunchy rawa dosa filled with,,219.0,True,reject_format,"Bistro sells ten snack sized dosa bites, the search returned full masala dosas",claude
+35,22,Quick Bites,Masala Dosa Pops,10 Pieces,149,Zomato,Saravana Bhavan,Masala Dosa,Sambar and 2 types of chutney. (Serves 1),(Serves 1),185.71,True,reject_format,"Bistro sells ten snack sized dosa bites, the search returned full masala dosas",claude
+41,22,Quick Bites,Masala Dosa Pops,10 Pieces,149,Zomato,Udupi Express Food Junction,Masala Dosa,Golden crispy South Indian dosa stuffed with flavorful spiced potato masala. Serve...more,,199.0,True,reject_format,"Bistro sells ten snack sized dosa bites, the search returned full masala dosas",claude
+42,22,Quick Bites,Masala Dosa Pops,10 Pieces,149,Zomato,Udupi Express Food Junction,Butter Masala Dosa,Crispy golden dosa generously,,229.0,True,reject_format,"Bistro sells ten snack sized dosa bites, the search returned full masala dosas",claude
+175,25,Quick Bites,Cheese Maggi,Serves 1,109,Swiggy,Chaayos Chai+Snacks=Relax,Cheese Masala Maggi,,,199.0,False,keep,,claude
+178,25,Quick Bites,Cheese Maggi,Serves 1,109,Swiggy,Chai Point,Korean Chilli Cheese - Made with Maggi,,,169.0,False,keep,,claude
+179,25,Quick Bites,Cheese Maggi,Serves 1,109,Swiggy,FLAVORA by Falak,Cheese Maggi,,,129.0,False,keep,,claude
+177,25,Quick Bites,Cheese Maggi,Serves 1,109,Swiggy,Good Meat Hub,Plain Cheese Maggi,,,159.0,False,keep,,claude
+176,25,Quick Bites,Cheese Maggi,Serves 1,109,Swiggy,Home Food Hub,Cheese Maggi,,,175.0,False,keep,,claude
+180,25,Quick Bites,Cheese Maggi,Serves 1,109,Swiggy,Penta Cafeteria,Cheese Maggi,,,69.0,False,keep,,claude
+181,25,Quick Bites,Cheese Maggi,Serves 1,109,Swiggy,Super Chai,Cheese Maggi,,,159.0,False,keep,,claude
+45,25,Quick Bites,Cheese Maggi,Serves 1,109,Zomato,Chaayos Chai+Snacks=Relax,Cheese Masala Maggi,Masala Maggi with veggies & gooey melted cheese folded in.,,199.0,False,keep,,claude
+47,25,Quick Bites,Cheese Maggi,Serves 1,109,Zomato,Chai Sutta Bar,Butter Cheese Maggi,"Maggi tossed in extra butter and melty cheese rich, creamy and melt in your mouth good.",,120.0,False,keep,,claude
+46,25,Quick Bites,Cheese Maggi,Serves 1,109,Zomato,Nibbles Cafe,Cheese Maggi,Classic Maggi Topped With Melted Cheese For A Rich And Creamy Twist.,,149.0,False,keep,,claude
+184,26,Quick Bites,Cheesy Vada Pav,Serves 1,99,Swiggy,Bole To Vadapav,Asli Cheese Vadapav,,,59.0,False,keep,,claude
+185,26,Quick Bites,Cheesy Vada Pav,Serves 1,99,Swiggy,Jay Bhavani Vadapav,Jb vadapav cheese,,,105.0,False,keep,,claude
+187,26,Quick Bites,Cheesy Vada Pav,Serves 1,99,Swiggy,Kadhai Nama,Cheese Vada Pav,,,99.0,False,keep,,claude
+183,26,Quick Bites,Cheesy Vada Pav,Serves 1,99,Swiggy,Karigari - By Chef Harpal Singh S...,Cheesy Vada Pav,,,395.0,False,keep,,claude
+186,26,Quick Bites,Cheesy Vada Pav,Serves 1,99,Swiggy,Namah 25 Degree North Xpress,Cheese Vada Pav,,,60.0,False,keep,,claude
+182,26,Quick Bites,Cheesy Vada Pav,Serves 1,99,Swiggy,Samosa Party,Cheesy Vada Pav,,,109.0,False,keep,,claude
+48,26,Quick Bites,Cheesy Vada Pav,Serves 1,99,Zomato,Chaayos Chai+Snacks=Relax,Vada Pav,Mumbaikar's spicy potato vada tucked in a pav with mint chutney.,,119.0,False,reject_format,"plain vada pav, Bistro sells a cheesy vada pav",claude
+49,26,Quick Bites,Cheesy Vada Pav,Serves 1,99,Zomato,Chaayos Chai+Snacks=Relax,Desi Chai with Vada Pav,,,258.0,False,reject_format,chai and vada pav sold as one combo,claude
+52,26,Quick Bites,Cheesy Vada Pav,Serves 1,99,Zomato,Creme N Crisp,Vada Pao,"(1 Pc) Soft bun filled with crispy, spiced potato fritter, served with tangy chutneys for a classic pure veg street food delight.",(1 Pc),55.0,False,reject_format,"plain vada pav, Bistro sells a cheesy vada pav",claude
+51,26,Quick Bites,Cheesy Vada Pav,Serves 1,99,Zomato,Marathi Katta,Vada pav,,,40.0,False,reject_format,"plain vada pav, Bistro sells a cheesy vada pav",claude
+53,26,Quick Bites,Cheesy Vada Pav,Serves 1,99,Zomato,Nothing Before Coffee,Batata Vada Pav,"A delicious, spicy potato fritter nestled in a soft pav, Batata Vada Pav is Mumbai's i...more",,112.0,False,reject_format,"plain vada pav, Bistro sells a cheesy vada pav",claude
+50,26,Quick Bites,Cheesy Vada Pav,Serves 1,99,Zomato,One Tap Biryani,Vada Pav,Pav Stuffed With Fried Potato Fritters.,,119.9,False,reject_format,"plain vada pav, Bistro sells a cheesy vada pav",claude
+189,28,Quick Bites,High-Protein Boiled Eggs,Serves 1,99,Swiggy,Cha Bar,Boiled Egg,,,150.0,False,keep,,claude
+188,28,Quick Bites,High-Protein Boiled Eggs,Serves 1,99,Swiggy,Fire & Ice Restaurant,Boiled Egg,,,93.15,False,keep,,claude
+190,28,Quick Bites,High-Protein Boiled Eggs,Serves 1,99,Swiggy,Saravanaa Mess,Boiled Egg,,,50.0,False,keep,,claude
+55,28,Quick Bites,High-Protein Boiled Eggs,Serves 1,99,Zomato,Kerala Coastal Restaurant,Boiled Egg [2 Pieces],"Simple, protein-packed goodness! Farm-fresh eggs boiled to tender-yolk perf...more",[2 Pieces],70.0,False,keep,,claude
+54,28,Quick Bites,High-Protein Boiled Eggs,Serves 1,99,Zomato,The Moms Taste,Boiled Egg [6 Egg],,[6 Egg],110.0,False,keep,,claude
+56,29,Quick Bites,Cheese Popcorn,Serves 1,99,Zomato,"PVR Cafe - Popcorn, Pizza, Hot Dogs & Snacks",Regular Cheese Popcorn & Red Bull,Regular Cheese popcorn paired with Red Bull Can,Regular,339.0,False,reject_format,popcorn bundled with a Red Bull,claude
+196,32,Quick Bites,Punjabi Aloo Samosa,2 Pieces,79,Swiggy,Bangla Sweet House,Samosa,,,25.0,False,keep,,claude
+191,32,Quick Bites,Punjabi Aloo Samosa,2 Pieces,79,Swiggy,Bengal Sweet Corner,Samosa (1 Pc),,(1 Pc),22.0,False,keep,,claude
+193,32,Quick Bites,Punjabi Aloo Samosa,2 Pieces,79,Swiggy,Haldiram's,Samosa Small (200gm),,(200gm),61.9,False,reject_format,"small samosa sold by weight, a different size object",claude
+194,32,Quick Bites,Punjabi Aloo Samosa,2 Pieces,79,Swiggy,Kota Kachori And Falahaar,Aloo Samosa,,,35.0,False,keep,,claude
+192,32,Quick Bites,Punjabi Aloo Samosa,2 Pieces,79,Swiggy,Nukkad Ramji Samosa Wala,Aloo samosa,,,19.0,False,keep,,claude
+195,32,Quick Bites,Punjabi Aloo Samosa,2 Pieces,79,Swiggy,Om di Hatti(Kamla Nagar),Aloo Samosa (2 Pc),,(2 Pc),39.0,False,keep,,claude
+59,32,Quick Bites,Punjabi Aloo Samosa,2 Pieces,79,Zomato,Chai Point,Aloo Samosa,"A crispy tea-time snack, stuffed with spiced potatoes and peas. An all time favourite i...more",,99.0,False,keep,,claude
+58,32,Quick Bites,Punjabi Aloo Samosa,2 Pieces,79,Zomato,Kaleva,Aloo Samosa,"(1 Pc) Crispy, golden-fried samosas filled with mildly spiced potatoes and peas...more",(1 Pc),24.0,False,keep,,claude
+57,32,Quick Bites,Punjabi Aloo Samosa,2 Pieces,79,Zomato,Kota Kachori - Falahaar,Aloo Samosa,"Crispy fried samosa filled with spiced potato and peas, served with tangy chutneys.",,35.0,False,keep,,claude
+60,32,Quick Bites,Punjabi Aloo Samosa,2 Pieces,79,Zomato,Shyam Sweets,Aloo Samosa [2 Pieces],"If you think of an Indian snack, probably the first image that pops into mind i...more",[2 Pieces],65.0,False,keep,,claude
+197,44,"Sandwich, Rolls & Burgers",OG Chicken Burger,Serves 1,129,Swiggy,BOSS Burger,Og Grilled Chicken Burger,22g protein • 451 kcal,,349.0,False,keep,,claude
+200,44,"Sandwich, Rolls & Burgers",OG Chicken Burger,Serves 1,129,Swiggy,Bomb Burgers by Moets,The OG Smash Chicken Burger,,,325.0,False,keep,,claude
+199,44,"Sandwich, Rolls & Burgers",OG Chicken Burger,Serves 1,129,Swiggy,Mocha,Og Grilled Chicken Burger,,,395.0,False,keep,,claude
+198,44,"Sandwich, Rolls & Burgers",OG Chicken Burger,Serves 1,129,Swiggy,Social,Og Grilled Chicken Burger,22g protein • 680 kcal,,349.0,False,keep,,claude
+63,44,"Sandwich, Rolls & Burgers",OG Chicken Burger,Serves 1,129,Zomato,AL - Bake,Crispy Chicken Burger,Yummy chicken burger.,,160.0,False,keep,,claude
+64,44,"Sandwich, Rolls & Burgers",OG Chicken Burger,Serves 1,129,Zomato,AL - Bake,Chicken Shawarma Burger,Yummy shawarma burger.,,180.0,False,reject_format,shawarma burger is a different preparation,claude
+65,44,"Sandwich, Rolls & Burgers",OG Chicken Burger,Serves 1,129,Zomato,Buff Grill,Cheese Chicken Popcorn Burger,"Signature popcorn pieces with chipotle sauce, veggies and a soft brioche bun the original kick.",,115.0,False,keep,,claude
+66,44,"Sandwich, Rolls & Burgers",OG Chicken Burger,Serves 1,129,Zomato,Buff Grill,Cheese Chicken Crunch Burger,Signature zinger patty with,,155.0,False,keep,,claude
+61,44,"Sandwich, Rolls & Burgers",OG Chicken Burger,Serves 1,129,Zomato,KFC,Chicken Zinger Burger - Classic,Signature American Classic Chicken burger made with a crunchy chicken fille...more,,248.57,False,keep,,claude
+62,44,"Sandwich, Rolls & Burgers",OG Chicken Burger,Serves 1,129,Zomato,Seoul Burgers & Shakes,Crispy Chicken Burger (VR),"Minced Chicken Patty fried to perfection topped with House Mayo, Lettuce and Ta...more",,144.0,False,keep,,claude
+201,45,"Sandwich, Rolls & Burgers",OG Veg Burger,Serves 1,109,Swiggy,BOSS Burger,Og Veggie Aloolicious Burger,,,329.0,False,keep,,claude
+204,45,"Sandwich, Rolls & Burgers",OG Veg Burger,Serves 1,109,Swiggy,Boba Bhai - Bubble Tea & Kore...,The OG Veggie Burger,,,158.0,False,keep,,claude
+203,45,"Sandwich, Rolls & Burgers",OG Veg Burger,Serves 1,109,Swiggy,Seoul Burgers & Shakes,The OG Veggie Burger,,,289.0,False,keep,,claude
+202,45,"Sandwich, Rolls & Burgers",OG Veg Burger,Serves 1,109,Swiggy,Social,Og Veggie Aloolicious Burger,,,329.0,False,keep,,claude
+67,45,"Sandwich, Rolls & Burgers",OG Veg Burger,Serves 1,109,Zomato,KFC,Veg Zinger Burger,"| Allergens: Wheat, Soya, Milk| Protein per gm 13| Portion weight in gm 230| Kcal pe...more",Portion weight in gm 230,239.05,False,keep,,claude
+68,45,"Sandwich, Rolls & Burgers",OG Veg Burger,Serves 1,109,Zomato,KFC,Veg Zinger Burger with Cheese,,,263.81,False,keep,,claude
+69,45,"Sandwich, Rolls & Burgers",OG Veg Burger,Serves 1,109,Zomato,Kala Cafe,Vegetables And Cheese Burger,,,195.0,False,keep,,claude
+70,45,"Sandwich, Rolls & Burgers",OG Veg Burger,Serves 1,109,Zomato,Seoul Burgers & Shakes,The OG Veggie Burger,"The Golden Fried Veg Patty Topped with our in house burger sauce, onions, Lettuce...more",,144.0,False,keep,,claude
+71,45,"Sandwich, Rolls & Burgers",OG Veg Burger,Serves 1,109,Zomato,Wendy's Burgers,Crispy Veg Burger,"Crunchy, golden tikki, onion rings, and creamy sauce. A nostalgic bite thats just next-level.",,59.0,False,keep,,claude
+206,46,Desserts,Malai Ghewar,Serves 2,219,Swiggy,Bangla Sweet House,Malai Ghewar,,,450.0,False,keep,,claude
+205,46,Desserts,Malai Ghewar,Serves 2,219,Swiggy,Bengal Sweet Corner,Malai Ghewar,,,495.0,False,keep,,claude
+207,46,Desserts,Malai Ghewar,Serves 2,219,Swiggy,Haldiram's,Big Malai Ghewar (1 Piece / 2 Pieces),,(1 Piece / 2 Pieces),509.0,False,reject_format,"big ghewar priced as one or two pieces, quantity unresolvable",claude
+209,46,Desserts,Malai Ghewar,Serves 2,219,Swiggy,Maddi sweet center,Malai GHEWAR,,,299.0,False,keep,,claude
+208,46,Desserts,Malai Ghewar,Serves 2,219,Swiggy,Nathu's Sweets,Malai Ghewar,,,285.0,False,keep,,claude
+74,46,Desserts,Malai Ghewar,Serves 2,219,Zomato,Bangla Sweet House,Malai Ghewar,"Crispy Rajasthani ghewar topped with thick malai and syrup. A festive, creamy desser...more",,450.0,False,keep,,claude
+75,46,Desserts,Malai Ghewar,Serves 2,219,Zomato,Bangla Sweet House,Kesar Malai Ghewar [Desi Ghee],"Classic ghewar topped with creamy malai and saffron strands. Rich, aro...more",,565.0,False,keep,,claude
+72,46,Desserts,Malai Ghewar,Serves 2,219,Zomato,Haldiram's,Big Malai Ghewar (1 Piece / 2 Pieces),Available in 1 piece (480-510gm) & 2 pieces (960-1020gm). Traditional Rajas...more,(1 Piece / 2 Pieces),509.0,False,reject_format,"big ghewar priced as one or two pieces, quantity unresolvable",claude
+76,46,Desserts,Malai Ghewar,Serves 2,219,Zomato,Mithaivala,Malai Ghewar [Desi Ghee],Malai ghewar,,196.43,False,keep,,claude
+73,46,Desserts,Malai Ghewar,Serves 2,219,Zomato,Nathu's Sweets,Malai Ghewar,"Crisp desi ghee ghewar topped with a generous layer of rich, creamy malai for...more",,300.0,False,keep,,claude
+210,52,Desserts,Kesari Rasmalai,1 Piece,69,Swiggy,Bangla Sweet House,Kesar Rasmalai [1 Pc],,[1 Pc],70.0,False,keep,,claude
+214,52,Desserts,Kesari Rasmalai,1 Piece,69,Swiggy,Bengali Sweet Centre,Kesar Rasmalai,,,130.0,False,keep,,claude
+212,52,Desserts,Kesari Rasmalai,1 Piece,69,Swiggy,Kaleva,Kesar Rasmalai [2 Pcs],,[2 Pcs],180.0,False,keep,,claude
+213,52,Desserts,Kesari Rasmalai,1 Piece,69,Swiggy,Kaleva (All Day Diner),Kesar Rasmalai (2 Pc),,(2 Pc),135.0,False,keep,,claude
+211,52,Desserts,Kesari Rasmalai,1 Piece,69,Swiggy,Nathu's Sweets,Rasmalai [2 Pieces],,[2 Pieces],120.0,False,keep,,claude
+77,52,Desserts,Kesari Rasmalai,1 Piece,69,Zomato,Bangla Sweet House,Kesar Rasmalai [1 Pc],"[1 Pc] Soft, spongy rasmalai soaked in rich saffron-infused milk, garnished with...more",[1 Pc],70.0,False,keep,,claude
+79,52,Desserts,Kesari Rasmalai,1 Piece,69,Zomato,Kaleva,Kesar Rasmalai [2 Pcs],Indulge in the opulence of Kesar Rasmalai a duo of saffron-infused de...more,[2 Pcs],180.0,False,keep,,claude
+78,52,Desserts,Kesari Rasmalai,1 Piece,69,Zomato,Kaleva All Day Diner,Kesar Rasmalai (2 Pc),"Soft paneer patties soaked in saffron-flavored milk, garnished with dry fruits....more",(2 Pc),135.0,False,keep,,claude
+217,53,Desserts,Moong Dal Halwa,Serves 1,69,Swiggy,Barbeque Nation,Moong Dal Halwa,,,209.0,False,keep,,claude
+215,53,Desserts,Moong Dal Halwa,Serves 1,69,Swiggy,Bengal Sweet Corner,Moong Dal Halwa - 250gm,,250gm,210.0,False,keep,,claude
+219,53,Desserts,Moong Dal Halwa,Serves 1,69,Swiggy,Dum Safar Biryani,Moong Dal Halwa,,,179.0,False,keep,,claude
+218,53,Desserts,Moong Dal Halwa,Serves 1,69,Swiggy,Ghee and Turmeric,Moong Dal Halwa Desi Ghee,,,149.0,False,keep,,claude
+216,53,Desserts,Moong Dal Halwa,Serves 1,69,Swiggy,Haldiram's,Moong Dal Halwa,,,246.0,False,keep,,claude
+220,53,Desserts,Moong Dal Halwa,Serves 1,69,Swiggy,LunchBox - Meals and Thalis,Moong Dal Halwa,,,109.0,False,keep,,claude
+221,53,Desserts,Moong Dal Halwa,Serves 1,69,Swiggy,"UBQ-Meals,Thalis & Bowls",Moong Dal Halwa,,,209.0,False,keep,,claude
+82,53,Desserts,Moong Dal Halwa,Serves 1,69,Zomato,Barbeque Nation,Moong Dal Halwa,Delicious golden brown Halwa made from Moong lentils and clarified butter a...more,,209.0,False,keep,,claude
+83,53,Desserts,Moong Dal Halwa,Serves 1,69,Zomato,Gulati,Mung Dal Halwa,(300 Gm),(300 Gm),425.0,False,keep,,claude
+80,53,Desserts,Moong Dal Halwa,Serves 1,69,Zomato,Haldiram's,Moong Dal Halwa,Dive into the richness of Haldiram's Moong Dal Ka Halwa - a decadent dess...more,,245.88,False,keep,,claude
+84,53,Desserts,Moong Dal Halwa,Serves 1,69,Zomato,Punjab Grill,Moong Dal Halwa,Hot moong dal halwa topped with desi ghee & abundance of nuts.,,355.0,False,keep,,claude
+81,53,Desserts,Moong Dal Halwa,Serves 1,69,Zomato,Shyam Sweets,Moong Dal Halwa Seasonal,Winter,,270.0,False,keep,,claude
+222,55,Desserts,Gulab Jamun,1 Piece,49,Swiggy,Bengal Sweet Corner,Gulab Jamun (2 Pcs),,(2 Pcs),76.0,False,keep,,claude
+223,55,Desserts,Gulab Jamun,1 Piece,49,Swiggy,Bikkgane Biryani,Gulab Jamun ( 1 Piece),,( 1 Piece),49.0,False,keep,,claude
+227,55,Desserts,Gulab Jamun,1 Piece,49,Swiggy,Dum Safar Biryani,Angoori Jamun (4 Nos),,(4 Nos),35.0,False,reject_format,"angoori jamun are a smaller sweet, not gulab jamun",claude
+226,55,Desserts,Gulab Jamun,1 Piece,49,Swiggy,Kaleva,Gulab Jamun [2 Pcs],,[2 Pcs],84.0,False,keep,,claude
+225,55,Desserts,Gulab Jamun,1 Piece,49,Swiggy,Nathu's Sweets,Gulab Jamun,,,150.0,False,keep,,claude
+224,55,Desserts,Gulab Jamun,1 Piece,49,Swiggy,"UBQ-Meals,Thalis & Bowls",Angoori Jamun (4 Nos),,(4 Nos),35.0,False,reject_format,"angoori jamun are a smaller sweet, not gulab jamun",claude
+89,55,Desserts,Gulab Jamun,1 Piece,49,Zomato,Bangla Sweet House,4 Pcs Samosa + 4 Pcs Gulab Jamun,"Golden, crispy samosas paired with soft, syrup-soaked gulab jamuns — the pe…more",4 Pcs; 4 Pcs,240.0,False,reject_format,samosa and gulab jamun sold as one combo,claude
+90,55,Desserts,Gulab Jamun,1 Piece,49,Zomato,Bangla Sweet House,Gulab Jamun,"A soft, deep-fried milk ball soaked in fragrant sugar syrup, offering a melt-i…more",,170.0,False,keep,,claude
+88,55,Desserts,Gulab Jamun,1 Piece,49,Zomato,Haldiram's,Gulab Jamun (500gm),Give your taste buds a yummilious experience with Haldiram's Gulab…more,(500gm),342.85,False,reject_format,500 gram bulk pack,claude
+87,55,Desserts,Gulab Jamun,1 Piece,49,Zomato,Kota Kachori - Falahaar,Falahaari Gulab Jamun,"Classic Gulab Jamun taste in a vrat-friendly preparation — soft, sweet, and delicious.",,75.0,False,keep,,claude
+86,55,Desserts,Gulab Jamun,1 Piece,49,Zomato,Nathu's Sweets,Gulab Jamun,"Gulab jamun is a soft, melt in the mouth sweet made from khoya, deep-fried and soa…more",,150.0,False,keep,,claude
+85,55,Desserts,Gulab Jamun,1 Piece,49,Zomato,Saravana Bhavan,Gulab Jamun (2 Pcs),,(2 Pcs),90.48,False,keep,,claude
+230,57,Desserts,Sponge Rasgulla,1 Piece,49,Swiggy,Bhoj Restaurant,Sponge Rasgulla,,,49.0,False,keep,,claude
+228,57,Desserts,Sponge Rasgulla,1 Piece,49,Swiggy,Kaleva,Sponge Rasgulla [2 Pcs],,[2 Pcs],48.0,False,keep,,claude
+232,57,Desserts,Sponge Rasgulla,1 Piece,49,Swiggy,Maddi sweet center,Rasgulla Sponge,,,39.0,False,keep,,claude
+229,57,Desserts,Sponge Rasgulla,1 Piece,49,Swiggy,Mithaivala,Sponge Rasgulla (1 Piece),,(1 Piece),22.0,False,keep,,claude
+233,57,Desserts,Sponge Rasgulla,1 Piece,49,Swiggy,Raj Sweets,Sponge rasgulla [2 pieces],,[2 pieces],70.0,False,keep,,claude
+231,57,Desserts,Sponge Rasgulla,1 Piece,49,Swiggy,Temple street,Sponge Rasgulla,,,49.0,False,keep,,claude
+96,57,Desserts,Sponge Rasgulla,1 Piece,49,Zomato,Bangla Sweet House,Rasgulla [1 Pc],"[1 Pc] Delicate, spongy chhena balls gently cooked and soaked in light sugar syrup, …more",[1 Pc],35.0,False,keep,,claude
+92,57,Desserts,Sponge Rasgulla,1 Piece,49,Zomato,Bikaner Sweets,White Rasgulla,A traditional sweet dish that is prepared using milk and sugar. It has a soft and cr…more,,300.0,False,reject_format,"priced at 280 to 300 with no quantity, a box not a piece",claude
+93,57,Desserts,Sponge Rasgulla,1 Piece,49,Zomato,Bikaner Sweets,Sev Rasgulla,A melt-in-mouth dessert made from cottage cheese balls soaked in a sugary syrup,,280.0,False,reject_format,"priced at 280 to 300 with no quantity, a box not a piece",claude
+91,57,Desserts,Sponge Rasgulla,1 Piece,49,Zomato,Haldiram's,Rasgulla (2pcs),,(2pcs),39.0,False,keep,,claude
+95,57,Desserts,Sponge Rasgulla,1 Piece,49,Zomato,Kaleva,Sponge Rasgulla [2 Pcs],Dive into the spongy perfection of our Rasgulla a sweet symphony that melts in…more,[2 Pcs],48.0,False,keep,,claude
+94,57,Desserts,Sponge Rasgulla,1 Piece,49,Zomato,Kaleva All Day Diner,Rasgulla (2 Pc),Spongy and juicy cottage cheese balls soaked in light sugar syrup. A refreshing and pop…more,(2 Pc),42.0,False,keep,,claude
+234,59,Meals,Aloo Pyaaz Paratha,2 Pieces,159,Swiggy,Amritsariya,Aloo Pyaaz Parantha [single],,[single],45.0,False,keep,,claude
+236,59,Meals,Aloo Pyaaz Paratha,2 Pieces,159,Swiggy,Bengal Sweet Corner,ALOO PYAZ PARANTHA WITH,,,119.0,False,keep,,claude
+235,59,Meals,Aloo Pyaaz Paratha,2 Pieces,159,Swiggy,Chaayos Chai+Snacks=Relax,Aloo Pyaaz Paratha (1 pc),,(1 pc),139.0,False,keep,,claude
+238,59,Meals,Aloo Pyaaz Paratha,2 Pieces,159,Swiggy,Haldiram's,Aloo Pyaz Parantha With  Curd - 1 pc,,- 1 pc,140.0,False,keep,,claude
+237,59,Meals,Aloo Pyaaz Paratha,2 Pieces,159,Swiggy,Pind Balluchi,Aloo Pyaz Paratha,,,79.0,False,keep,,claude
+97,59,Meals,Aloo Pyaaz Paratha,2 Pieces,159,Zomato,Chaayos Chai+Sna…,Desi Chai with Aloo Pyaaz Paratha,"Our signature Desi Chai paired with a baked, not-fried, flaky whole-wheat aloo p…more",,229.0,False,reject_format,chai and paratha sold as one combo,claude
+98,59,Meals,Aloo Pyaaz Paratha,2 Pieces,159,Zomato,Chaayos Chai+Sna…,Aloo Pyaaz Paratha (1 pc),"Baked, not fried — flaky whole-wheat paratha stuffed with spiced aloo & pyaaz,…more",(1 pc),155.0,False,keep,,claude
+100,59,Meals,Aloo Pyaaz Paratha,2 Pieces,159,Zomato,Haldiram's,Aloo Pyaz Parantha With Curd - 1 pc,Aloo Pyaz Parantha is a flavourful Indian flatbread stuffed with spiced potatoes…more,1 pc,140.0,False,keep,,claude
+101,59,Meals,Aloo Pyaaz Paratha,2 Pieces,159,Zomato,Pind Balluchi,Tandoori Aloo Pyaaz Paratha,Whole wheat bread filled with potato masala cooked on tandoor. Served with raita/gravy.,,220.0,False,keep,,claude
+99,59,Meals,Aloo Pyaaz Paratha,2 Pieces,159,Zomato,Wagh Bakri Tea Lounge,Loaded Aloo Pyaaz Paratha,Flaky whole-wheat paratha stuffed with spiced potato & onions. Comfort foo…more,,249.0,False,keep,,claude
+242,60,All Day Breakfast,Idli Sambar,Serves 1,139,Swiggy,Bengal Sweet Corner,Sambhar Idli (2 Pcs),255 kcal,(2 Pcs),150.0,False,keep,,claude
+241,60,All Day Breakfast,Idli Sambar,Serves 1,139,Swiggy,Chidambaram's New Madras H...,Sambar Idly,,,162.0,False,keep,,claude
+240,60,All Day Breakfast,Idli Sambar,Serves 1,139,Swiggy,Haldiram's,Idli Sambhar - 4 pcs,393 kcal,- 4 pcs,173.0,False,keep,,claude
+239,60,All Day Breakfast,Idli Sambar,Serves 1,139,Swiggy,Saravanaa Mess,Idli Sambar,,,94.0,False,keep,,claude
+106,60,All Day Breakfast,Idli Sambar,Serves 1,139,Zomato,Haldiram's,Idli Sambhar - 4 pcs,Indulge in the authentic flavors of South India with exquisite Idli Sambhar combo! Ma…more,4 pcs,173.0,False,keep,,claude
+105,60,All Day Breakfast,Idli Sambar,Serves 1,139,Zomato,Kaleva,Idli Sambar,"A hearty, satisfying, comforting and a healthy meal of soft fluffy idlis served with sa…more",,160.0,False,keep,,claude
+107,60,All Day Breakfast,Idli Sambar,Serves 1,139,Zomato,Nathu's Sweets,Idli Sambhar [2 Pieces],Indulge in the authentic flavors of South India with exquisite idli sambhar combo. Ma…more,[2 Pieces],149.0,False,keep,,claude
+104,60,All Day Breakfast,Idli Sambar,Serves 1,139,Zomato,Punjab Sweet Corner,Idli Sambar (2pcs),"Soft, fluffy idlis served with warm sambar and coconut chutney.",(2pcs),129.0,False,keep,,claude
+102,60,All Day Breakfast,Idli Sambar,Serves 1,139,Zomato,Saravana Bhavan,Hot Idli (3 Pcs),| Serve 1 | Sambar and 2 Types of Chutney.,(3 Pcs); | Serve 1 |,157.14,False,keep,,claude
+103,60,All Day Breakfast,Idli Sambar,Serves 1,139,Zomato,Saravana Bhavan,Hot Idli (2 Nos) + Medhu Vadai(1),Served With Sambar & 2 types Of,(2 Nos); (1),157.14,False,reject_format,idli bundled with a medhu vada,claude
+245,62,All Day Breakfast,Vegetable Poha,Serves 1,129,Swiggy,Handi 47,Poha With Sev,287 kcal,,184.0,False,keep,,claude
+244,62,All Day Breakfast,Vegetable Poha,Serves 1,129,Swiggy,Healthy Chef,Veg Masala Poha {200 Gm} Serves 1,254 kcal,{200 Gm} Serves 1,279.0,False,keep,,claude
+243,62,All Day Breakfast,Vegetable Poha,Serves 1,129,Swiggy,Home Food Hub,Vegetable Poha,,,175.0,False,keep,,claude
+247,62,All Day Breakfast,Vegetable Poha,Serves 1,129,Swiggy,S.S. Cafe,Vegetable poha,,,120.0,False,keep,,claude
+246,62,All Day Breakfast,Vegetable Poha,Serves 1,129,Swiggy,The Best Kitchen,Veg Poha [Half 500ML],245 kcal,[Half 500ML],149.0,False,reject_format,half portion,claude
+108,62,All Day Breakfast,Vegetable Poha,Serves 1,129,Zomato,Chaayos Chai+Sna…,Desi Chai with Mom's Poha,Make your own tea with home-style Mom's Poha. (Serves 1),(Serves 1),199.0,False,reject_format,chai and poha sold as one combo,claude
+109,62,All Day Breakfast,Vegetable Poha,Serves 1,129,Zomato,Chaayos Chai+Sna…,Mom's Poha,Home-style poha with the tang of lemon & the crunch of peanuts.,,149.0,False,keep,,claude
+112,62,All Day Breakfast,Vegetable Poha,Serves 1,129,Zomato,Chai Point,Poha,"Light, fluffy poha, cooked with a dash of turmeric, some peanuts and a dash of lemo…more",,79.5,False,keep,,claude
+113,62,All Day Breakfast,Vegetable Poha,Serves 1,129,Zomato,Chai Point,Ginger Chai Uniflask + Poha,"The warmth of Ginger Chai in our reusable Uniflask paired with light, fluffy Poha. …more",,264.0,False,reject_format,chai and poha sold as one combo,claude
+111,62,All Day Breakfast,Vegetable Poha,Serves 1,129,Zomato,Khichdi Hub,Poha With Sev,"Poha Is? Flattened Rice That Is Steam Cooked With Onions, Spices And Herbs.…more",,176.0,False,keep,,claude
+114,62,All Day Breakfast,Vegetable Poha,Serves 1,129,Zomato,Northern Flavours,Vegetable Poha,"Light and wholesome vegetable poha made with flattened rice, fresh vegetables, and…more",,170.1,False,keep,,claude
+110,62,All Day Breakfast,Vegetable Poha,Serves 1,129,Zomato,One Tap Biryani,Poha,"Made With Flattened Rice, Onions, Spices, Herbs, Lemon Juice & Peanuts",,174.9,False,keep,,claude
+115,68,Chaat Specials,Dahi Samosa Chaat,Serves 1,139,Zomato,Chaayos Chai+Snacks=Relax,Samosa Matar Chaat,Crispy crumbled samosa (1 pc) topped with spicy Amritsari matar & tangy imli chutney.,(1 pc),219.0,False,reject_format,"chole or matar topping, Bistro sells a dahi samosa chaat",claude
+118,68,Chaat Specials,Dahi Samosa Chaat,Serves 1,139,Zomato,Kaleva,Samosa Chaat,"Crispy samosas topped with tangy chutneys, fresh herbs, and crunchy sev, creating …more",,105.0,False,keep,,claude
+119,68,Chaat Specials,Dahi Samosa Chaat,Serves 1,139,Zomato,Kota Kachori - Falahaar,Samosa Chaat,"Crispy samosa chaat loaded with spicy chana, curd & tangy chutneys.",,85.0,False,keep,,claude
+120,68,Chaat Specials,Dahi Samosa Chaat,Serves 1,139,Zomato,Kota Kachori - Falahaar,Falahaari samosa chaat,"Vrat-friendly samosa chaat topped with curd, chutneys &",,85.0,False,keep,,claude
+121,68,Chaat Specials,Dahi Samosa Chaat,Serves 1,139,Zomato,Samosa Party,Dahi Samosa Chaat,"Crispy Punjabi Aloo samosa topped with creamy sweetened curd, tamarind a…more",,149.0,False,keep,,claude
+122,68,Chaat Specials,Dahi Samosa Chaat,Serves 1,139,Zomato,Samosa Party,Chole Samosa Chaat,,,179.0,False,reject_format,"chole or matar topping, Bistro sells a dahi samosa chaat",claude
+123,68,Chaat Specials,Dahi Samosa Chaat,Serves 1,139,Zomato,Temple Street,Samosa Chaat,,,239.0,False,keep,,claude
+116,68,Chaat Specials,Dahi Samosa Chaat,Serves 1,139,Zomato,Wagh Bakri Tea Lounge,Samosa chaat,Crunchy crumbles samosa topped with spicy chole and tangy imly & mint chutney,,219.0,False,keep,,claude
+117,68,Chaat Specials,Dahi Samosa Chaat,Serves 1,139,Zomato,Wagh Bakri Tea Lounge,Masala Chai + Samosa Chaat + Corn Chaat + Makhana Chaat,Serves 8. Masala Chai 800ml,Serves 8; 800ml,1000.0,False,reject_format,party platter for eight,claude
+250,71,Coolers & Shakes,Lemon Iced Tea,260 ml,79,Swiggy,Cha Bar,Lemon Iced Tea,,,190.0,False,keep,,claude
+253,71,Coolers & Shakes,Lemon Iced Tea,260 ml,79,Swiggy,Chinese Wok,Lemon Ice Tea,,,103.81,False,keep,,claude
+251,71,Coolers & Shakes,Lemon Iced Tea,260 ml,79,Swiggy,Garnita's,Lemon Iced Tea,,,255.0,False,keep,,claude
+249,71,Coolers & Shakes,Lemon Iced Tea,260 ml,79,Swiggy,NBC - Nothing Before Coffee,Lemon Iced Tea,,,238.0,False,keep,,claude
+252,71,Coolers & Shakes,Lemon Iced Tea,260 ml,79,Swiggy,The Belgian Waffle Co.,Lemon - Iced Tea,,,115.0,False,keep,,claude
+248,71,Coolers & Shakes,Lemon Iced Tea,260 ml,79,Swiggy,Theobroma,Lemon Iced Tea [300 ml],,[300 ml],99.0,False,keep,,claude
+124,71,Coolers & Shakes,Lemon Iced Tea,260 ml,79,Zomato,Chaayos Chai+Snacks=Relax,Lemon Iced Tea,Zesty lemon iced tea to revitalise your senses. (300ml),(300ml),209.0,False,keep,,claude
+126,71,Coolers & Shakes,Lemon Iced Tea,260 ml,79,Zomato,Fat Belly Pizzeria,Lemon Ice Tea,"Cool tea, a squeeze of lemon, and plenty of ice your ultimate thirst-quencher! Nutr…more",,229.0,False,keep,,claude
+125,71,Coolers & Shakes,Lemon Iced Tea,260 ml,79,Zomato,Punjab Sweet Corner,Lemon Iced Tea,A refreshing iced tea with a hint of lemon.,,89.0,False,keep,,claude
+127,71,Coolers & Shakes,Lemon Iced Tea,260 ml,79,Zomato,Wendy's Burgers,Lemon Ice Tea (250 mL),"Sip on this refreshing drink for a citsrusy lemon punch, infused with brewed tea. This i…more",(250 mL),89.0,False,keep,,claude
+254,75,Soft Drinks & Juices,Diet Coke - Can,330 ml,50,Swiggy,Krispy Kreme - Doughnuts & Coffee,Coke Diet Can,,,66.0,False,keep,,claude
+129,75,Soft Drinks & Juices,Diet Coke - Can,330 ml,50,Zomato,Krispy Kreme - Doughnuts & Coffee,Coke Diet Can,"The world's most popular soft drink, loved for its crisp, clean, and refreshing taste.…more",,66.0,False,keep,,claude
+128,75,Soft Drinks & Juices,Diet Coke - Can,330 ml,50,Zomato,Tossin Pizza,Diet Coke Can,,,50.0,False,keep,,claude

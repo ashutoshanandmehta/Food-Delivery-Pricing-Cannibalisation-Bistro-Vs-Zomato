@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Match review sample, MBA753</title>
+<style>
+  :root {
+    --ink: #16130f; --mid: #6b6255; --line: #e0d9cd; --bg: #faf7f2;
+    --card: #fff; --bistro: #b4530a; --mkt: #2e5c8a;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 2.2rem 1.2rem 4rem; background: var(--bg);
+    color: var(--ink); font: 15px/1.55 -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Helvetica, Arial, sans-serif; }
+  main { max-width: 800px; margin: 0 auto; }
+  h1 { font-size: 1.45rem; margin: 0 0 .35rem; letter-spacing: -.01em; }
+  .sub { color: var(--mid); margin: 0 0 1.6rem; }
+  .box { background: var(--card); border: 1px solid var(--line);
+    border-radius: 10px; padding: 1.1rem 1.25rem; margin-bottom: 1.6rem; }
+  .box h2 { font-size: .95rem; margin: 0 0 .6rem; text-transform: uppercase;
+    letter-spacing: .06em; color: var(--mid); }
+  .rule { font-size: 1.05rem; font-weight: 600; margin: 0 0 .9rem; }
+  table { border-collapse: collapse; width: 100%; }
+  td { padding: .4rem .5rem .4rem 0; vertical-align: top;
+    border-top: 1px solid var(--line); font-size: .92rem; }
+  td:first-child { width: 8.5rem; }
+  code { background: #f0ece4; padding: .1rem .35rem; border-radius: 4px;
+    font-size: .85em; }
+  .card { background: var(--card); border: 1px solid var(--line);
+    border-radius: 10px; padding: .95rem 1.1rem; margin-bottom: .8rem;
+    position: relative; }
+  .rid { position: absolute; top: .8rem; right: 1rem; font-size: .8rem;
+    font-weight: 700; color: var(--mid); }
+  .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 1.1rem; }
+  @media (max-width: 620px) { .pair { grid-template-columns: 1fr; } }
+  .side { padding-left: .7rem; border-left: 3px solid var(--line); }
+  .bistro { border-left-color: var(--bistro); }
+  .mkt { border-left-color: var(--mkt); }
+  .lab { font-size: .74rem; text-transform: uppercase; letter-spacing: .06em;
+    color: var(--mid); margin-bottom: .2rem; }
+  .name { font-weight: 600; }
+  .meta { font-size: .88rem; color: var(--mid); margin-top: .15rem; }
+  .qty { background: #f0ece4; padding: .05rem .3rem; border-radius: 4px;
+    font-size: .85em; }
+  .desc { font-size: .85rem; color: var(--mid); margin-top: .35rem;
+    font-style: italic; }
+  .verdicts { margin-top: .8rem; padding-top: .6rem;
+    border-top: 1px dashed var(--line); display: flex; gap: .4rem;
+    flex-wrap: wrap; }
+  .v { font-size: .78rem; color: var(--mid); border: 1px solid var(--line);
+    border-radius: 999px; padding: .15rem .6rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Match review sample</h1>
+  <p class="sub">30 rows drawn at random from the 254 matched
+  listings, seed 753. Grade these without looking at my pass, so the agreement
+  rate means something.</p>
+
+  <div class="box">
+    <p class="rule">Is this marketplace listing the same product as the Bistro dish, so that comparing the two prices is meaningful?</p>
+    <h2>Verdicts</h2>
+    <table><tr><td><code>keep</code></td><td>Same dish and same format. Portion may differ, that is handled by normalisation later. Judge the product, not the size.</td></tr>
+<tr><td><code>reject_format</code></td><td>Same dish name, different product format. Mini or snack-sized against full size, or a combo that bundles a second dish the restaurant also sells alone.</td></tr>
+<tr><td><code>reject_dish</code></td><td>Not the same dish at all. The token rule matched on a shared word.</td></tr>
+<tr><td><code>unsure</code></td><td>Cannot tell from the name and description. Use it freely, an unsure is more useful than a guess.</td></tr></table>
+  </div>
+
+  <div class="box">
+    <h2>How to return it</h2>
+    <p style="margin:0">Fill the <code>verdict</code> column in
+    <code>data/manual/intercoder_sample.csv</code>, or just tell me the row
+    numbers you would reject and why. Either works.</p>
+  </div>
+
+    <article class="card">
+      <div class="rid">5</div>
+      <div class="pair">
+        <div class="side bistro">
+          <div class="lab">Bistro &middot; Meals</div>
+          <div class="name">Chicken Keema Pav</div>
+          <div class="meta"><span class="qty">Serves 1</span>
+            &middot; &#8377;189</div>
+        </div>
+        <div class="side mkt">
+          <div class="lab">Zomato &middot; Surkhaab</div>
+          <div class="name">Chicken Keema Pao</div>
+          <div class="meta">&#8377;465</div>
+          <div class="desc">Spiced chicken mince topped with finel chopped onions, served with soft handmade mini pao</div>
+        </div>
+      </div>
+      <div class="verdicts"><span class="v">keep</span><span class="v">reject_format</span><span class="v">reject_dish</span><span class="v">unsure</span></div>
+    </article>
+    <article class="card">
+      <div class="rid">32</div>
+      <div class="pair">
+        <div class="side bistro">
+          <div class="lab">Bistro &middot; Quick Bites</div>
+          <div class="name">Crispy Peri Peri Fries</div>
+          <div class="meta"><span class="qty">Serves 2</span>
+            &middot; &#8377;149</div>
+        </div>
+        <div class="side mkt">
+          <div class="lab">Zomato &middot; Xero Degrees</div>
+          <div class="name">Peri Peri Cheesy Fries ( Must Try )</div>
+          <div class="meta">&#8377;359</div>
+          <div class="desc">Crispy fries drenched in cheese with a spicy peri peri twist.</div>
+        </div>
+      </div>
+      <div class="verdicts"><span class="v">keep</span><span class="v">reject_format</span><span class="v">reject_dish</span><span class="v">unsure</span></div>
+    </article>
+    <article class="card">
+      <div class="rid">42</div>
+      <div class="pair">
+        <div class="side bistro">
+          <div class="lab">Bistro &middot; Quick Bites</div>
+          <div class="name">Masala Dosa Pops</div>
+          <div class="meta"><span class="qty">10 Pieces</span>
+            &middot; &#8377;149</div>
+        </div>
+        <div class="side mkt">
+          <div class="lab">Zomato &middot; Udupi Express Food Junction</div>
+          <div class="name">Butter Masala Dosa</div>
+          <div class="meta">&#8377;229</div>
+          <div class="desc">Crispy golden dosa generously</div>
+        </div>
+      </div>
+      <div class="verdicts"><span class="v">keep</span><span class="v">reject_format</span><span class="v">reject_dish</span><span class="v">unsure</span></div>
+    </article>
+    <article class="card">
+      <div class="rid">43</div>
+      <div class="pair">
+        <div class="side bistro">
+          <div class="lab">Bistro &middot; Quick Bites</div>
+          <div class="name">Masala Dosa Pops</div>
+          <div class="meta"><span class="qty">10 Pieces</span>
+            &middot; &#8377;149</div>
+        </div>
+        <div class="side mkt">
+          <div class="lab">Zomato &middot; Haldiram&#x27;s</div>
+          <div class="name">Special Masala Dosa</div>
+          <div class="meta">&#8377;285</div>
+          <div class="desc">Haldiram&#x27;s iconic South Indian dish features a crispy dosa filled with flavourful po...more</div>
+        </div>
+      </div>
+      <div class="verdicts"><span class="v">keep</span><span class="v">reject_format</span><span class="v">reject_dish</span><span class="v">unsure</span></div>
+    </article>
+    <article class="card">
+      <div class="rid">53</div>
+      <div class="pair">
+        <div class="side bistro">
+          <div class="lab">Bistro &middot; Quick Bites</div>
+          <div class="name">Cheesy Vada Pav</div>
+          <div class="meta"><span class="qty">Serves 1</span>
+            &middot; &#8377;99</div>
+        </div>
+        <div class="side mkt">
+          <div class="lab">Zomato &middot; Nothing Before Coffee</div>
+          <div class="name">Batata Vada Pav</div>
+          <div class="meta">&#8377;112</div>
+          <div class="desc">A delicious, spicy potato fritter nestled in a soft pav, Batata Vada Pav is Mumbai&#x27;s i...more</div>
+        </div>
+      </div>
+      <div class="verdicts"><span class="v">keep</span><span class="v">reject_format</span><span class="v">reject_dish</span><span class="v">unsure</span></div>
+    </article>
+    <article class="card">
+      <div class="rid">58</div>
+      <div class="pair">
+        <div class="side bistro">
+          <div class="lab">Bistro &middot; Quick Bites</div>
+          <div class="name">Punjabi Aloo Samosa</div>
+          <div class="meta"><span class="qty">2 Pieces</span>
+            &middot; &#8377;79</div>
+        </div>
+        <div class="side mkt">
+          <div class="lab">Zomato &middot; Kaleva</div>
+          <div class="name">Aloo Samosa <span class="qty">(1 Pc)</span></div>
+          <div class="meta">&#8377;24</div>
+          <div class="desc">(1 Pc) Crispy, golden-fried samosas filled with mildly spiced potatoes and peas...more</div>
+        </div>
+      </div>
+      <div class="verdicts"><span class="v">keep</span><span class="v">reject_format</span><span class="v">reject_dish</span><span class="v">unsure</span></div>
+    </article>
+    <article class="card">
+      <div class="rid">63</div>
+      <div class="pair">
+        <div class="side bistro">
+          <div class="lab">Bistro &middot; Sandwich, Rolls &amp; Burgers</div>
+          <div class="name">OG Chicken Burger</div>
+          <div class="meta"><span class="qty">Serves 1</span>
+            &middot; &#8377;129</div>
+        </div>
+        <div class="side mkt">
+          <div class="lab">Zomato &middot; AL - Bake</div>
+          <div class="name">Crispy Chicken Burger</div>
+          <div class="meta">&#8377;160</div>
+          <div class="desc">Yummy chicken burger.</div>
+        </div>
+      </div>
+      <div class="verdicts"><span class="v">keep</span><span class="v">reject_format</span><span class="v">reject_dish</span><span class="v">unsure</span></div>
+    </article>
+    <article class="card">
+      <div class="rid">66</div>
+      <div class="pair">
+        <div class="side bistro">
+          <div class="lab">Bistro &middot; Sandwich, Rolls &amp; Burgers</div>
+          <div class="name">OG Chicken Burger</div>
+          <div class="meta"><span class="qty">Serves 1</span>
+            &middot; &#8377;129</div>
+        </div>
+        <div class="side mkt">
+          <div class="lab">Zomato &middot; Buff Grill</div>
+          <div class="name">Cheese Chicken Crunch Burger</div>
+          <div class="meta">&#8377;155</div>
+          <div class="desc">Signature zinger patty with</div>
+        </div>
+      </div>
+      <div class="verdicts"><span class="v">keep</span><span class="v">reject_format</span><span class="v">reject_dish</span><span class="v">unsure</span></div>
+    </article>
+    <article class="card">
+      <div class="rid">72</div>
+      <div class="pair">
+        <div class="side bistro">
+          <div class="lab">Bistro &middot; Desserts</div>
+          <div class="name">Malai Ghewar</div>
+          <div class="meta"><span class="qty">Serves 2</span>
+            &middot; &#8377;219</div>
+        </div>
+        <div class="side mkt">
+          <div class="lab">Zomato &middot; Haldiram&#x27;s</div>
+          <div class="name">Big Malai Ghewar (1 Piece / 2 Pieces) <span class="qty">(1 Piece / 2 Pieces)</span></div>
+          <div class="meta">&#8377;509</div>
+          <div class="desc">Available in 1 piece (480-510gm) &amp; 2 pieces (960-1020gm). Traditional Rajas...more</div>
+        </div>
+      </div>
+      <div class="verdicts"><span class="v">keep</span><span class="v">reject_format</span><span class="v">reject_dish</span><span class="v">unsure</span></div>
+    </article>
+    <article class="card">
+      <div class="rid">114</div>
+      <div class="pair">
+        <div class="side bistro">
+          <div class="lab">Bistro &middot; All Day Breakfast</div>
+          <div class="name">Vegetable Poha</div>
+          <div class="meta"><span class="qty">Serves 1</span>
+            &middot; &#8377;129</div>
+        </div>
+        <div class="side mkt">
+          <div class="lab">Zomato &middot; Northern Flavours</div>
+          <div class="name">Vegetable Poha</div>
+          <div class="meta">&#8377;170.1</div>
+          <div class="desc">Light and wholesome vegetable poha made with flattened rice, fresh vegetables, and…more</div>
+        </div>
+      </div>
+      <div class="verdicts"><span class="v">keep</span><span class="v">reject_format</span><span class="v">reject_dish</span><span class="v">unsure</span></div>
+    </article>
+    <article class="card">
+      <div class="rid">115</div>
+      <div class="pair">
+        <div class="side bistro">
+          <div class="lab">Bistro &middot; Chaat Specials</div>
+          <div class="name">Dahi Samosa Chaat</div>
+          <div class="meta"><span class="qty">Serves 1</span>
+            &middot; &#8377;139</div>
+        </div>
+        <div class="side mkt">
+          <div class="lab">Zomato &middot; Chaayos Chai+Snacks=Relax</div>
+          <div class="name">Samosa Matar Chaat <span class="qty">(1 pc)</span></div>
+          <div class="meta">&#8377;219</div>
+          <div class="desc">Crispy crumbled samosa (1 pc) topped with spicy Amritsari matar &amp; tangy imli chutney.</div>
+        </div>
+      </div>
+      <div class="verdicts"><span class="v">keep</span><span class="v">reject_format</span><span class="v">reject_dish</span><span class="v">unsure</span></div>
+    </article>
+    <article class="card">
+      <div class="rid">121</div>
+      <div class="pair">
+        <div class="side bistro">
+          <div class="lab">Bistro &middot; Chaat Specials</div>
+          <div class="name">Dahi Samosa Chaat</div>
+          <div class="meta"><span class="qty">Serves 1</span>
+            &middot; &#8377;139</div>
+        </div>
+        <div class="side mkt">
+          <div class="lab">Zomato &middot; Samosa Party</div>
+          <div class="name">Dahi Samosa Chaat</div>
+          <div class="meta">&#8377;149</div>
+          <div class="desc">Crispy Punjabi Aloo samosa topped with creamy sweetened curd, tamarind a…more</div>
+        </div>
+      </div>
+      <div class="verdicts"><span class="v">keep</span><span class="v">reject_format</span><span class="v">reject_dish</span><span class="v">unsure</span></div>
+    </article>
+    <article class="card">
+      <div class="rid">134</div>
+      <div class="pair">
+        <div class="side bistro">
+          <div class="lab">Bistro &middot; Meals</div>
+          <div class="name">Chicken Keema Pav</div>
+          <div class="meta"><span class="qty">Serves 1</span>
+            &middot; &#8377;189</div>
+        </div>
+        <div class="side mkt">
+          <div class="lab">Swiggy &middot; DiabeSmart - Sugarfree Foods</div>
+          <div class="name">Chicken Keema Pav - Diabetic Friendly</div>
+          <div class="meta">&#8377;319</div>
+          <div class="desc">62g protein • 690 kcal</div>
+        </div>
+      </div>
+      <div class="verdicts"><span class="v">keep</span><span class="v">reject_format</span><span class="v">reject_dish</span><span class="v">unsure</span></div>
+    </article>
+    <article class="card">
+      <div class="rid">140</div>
+      <div class="pair">
+        <div class="side bistro">
+          <div class="lab">Bistro &middot; Meals</div>
+          <div class="name">Rajma Rice</div>
+          <div class="meta"><span class="qty">Serves 1</span>
+            &middot; &#8377;159</div>
+        </div>
+        <div class="side mkt">
+          <div class="lab">Swiggy &middot; Jain Chawal Wale</div>
+          <div class="name">Rajma Chawal</div>
+          <div class="meta">&#8377;130</div>
+          
+        </div>
+      </div>
+      <div class="verdicts"><span class="v">keep</span><span class="v">reject_format</span><span class="v">reject_dish</span><span class="v">unsure</span></div>
+    </article>
+    <article class="card">
+      <div class="rid">143</div>
+      <div class="pair">
+        <div class="side bistro">
+          <div class="lab">Bistro &middot; Meals</div>
+          <div class="name">Rajma Rice</div>
+          <div class="meta"><span class="qty">Serves 1</span>
+            &middot; &#8377;159</div>
+        </div>
+        <div class="side mkt">
+          <div class="lab">Swiggy &middot; Swagat Dhaba</div>
+          <div class="name">Rajma Rice Mixed</div>
+          <div class="meta">&#8377;109</div>
+          
+        </div>
+      </div>
+      <div class="verdicts"><span class="v">keep</span><span class="v">reject_format</span><span class="v">reject_dish</span><span class="v">unsure</span></div>
+    </article>
+    <article class="card">
+      <div class="rid">156</div>
+      <div class="pair">
+        <div class="side bistro">
+          <div class="lab">Bistro &middot; Quick Bites</div>
+          <div class="name">Crispy Chicken Popcorn</div>
+          <div class="meta"><span class="qty">Serves 1</span>
+            &middot; &#8377;179</div>
+        </div>
+        <div class="side mkt">
+          <div class="lab">Swiggy &middot; Buff Grill</div>
+          <div class="name">Chicken Popcorn  [10 Pcs] <span class="qty">[10 Pcs]</span></div>
+          <div class="meta">&#8377;129</div>
+          
+        </div>
+      </div>
+      <div class="verdicts"><span class="v">keep</span><span class="v">reject_format</span><span class="v">reject_dish</span><span class="v">unsure</span></div>
+    </article>
+    <article class="card">
+      <div class="rid">174</div>
+      <div class="pair">
+        <div class="side bistro">
+          <div class="lab">Bistro &middot; Quick Bites</div>
+          <div class="name">Masala Dosa Pops</div>
+          <div class="meta"><span class="qty">10 Pieces</span>
+            &middot; &#8377;149</div>
+        </div>
+        <div class="side mkt">
+          <div class="lab">Swiggy &middot; Bengal Sweet Corner</div>
+          <div class="name">Masala Dosa</div>
+          <div class="meta">&#8377;218</div>
+          
+        </div>
+      </div>
+      <div class="verdicts"><span class="v">keep</span><span class="v">reject_format</span><span class="v">reject_dish</span><span class="v">unsure</span></div>
+    </article>
+    <article class="card">
+      <div class="rid">177</div>
+      <div class="pair">
+        <div class="side bistro">
+          <div class="lab">Bistro &middot; Quick Bites</div>
+          <div class="name">Cheese Maggi</div>
+          <div class="meta"><span class="qty">Serves 1</span>
+            &middot; &#8377;109</div>
+        </div>
+        <div class="side mkt">
+          <div class="lab">Swiggy &middot; Good Meat Hub</div>
+          <div class="name">Plain Cheese Maggi</div>
+          <div class="meta">&#8377;159</div>
+          
+        </div>
+      </div>
+      <div class="verdicts"><span class="v">keep</span><span class="v">reject_format</span><span class="v">reject_dish</span><span class="v">unsure</span></div>
+    </article>
+    <article class="card">
+      <div class="rid">184</div>
+      <div class="pair">
+        <div class="side bistro">
+          <div class="lab">Bistro &middot; Quick Bites</div>
+          <div class="name">Cheesy Vada Pav</div>
+          <div class="meta"><span class="qty">Serves 1</span>
+            &middot; &#8377;99</div>
+        </div>
+        <div class="side mkt">
+          <div class="lab">Swiggy &middot; Bole To Vadapav</div>
+          <div class="name">Asli Cheese Vadapav</div>
+          <div class="meta">&#8377;59</div>
+          
+        </div>
+      </div>
+      <div class="verdicts"><span class="v">keep</span><span class="v">reject_format</span><span class="v">reject_dish</span><span class="v">unsure</span></div>
+    </article>
+    <article class="card">
+      <div class="rid">189</div>
+      <div class="pair">
+        <div class="side bistro">
+          <div class="lab">Bistro &middot; Quick Bites</div>
+          <div class="name">High-Protein Boiled Eggs</div>
+          <div class="meta"><span class="qty">Serves 1</span>
+            &middot; &#8377;99</div>
+        </div>
+        <div class="side mkt">
+          <div class="lab">Swiggy &middot; Cha Bar</div>
+          <div class="name">Boiled Egg</div>
+          <div class="meta">&#8377;150</div>
+          
+        </div>
+      </div>
+      <div class="verdicts"><span class="v">keep</span><span class="v">reject_format</span><span class="v">reject_dish</span><span class="v">unsure</span></div>
+    </article>
+    <article class="card">
+      <div class="rid">193</div>
+      <div class="pair">
+        <div class="side bistro">
+          <div class="lab">Bistro &middot; Quick Bites</div>
+          <div class="name">Punjabi Aloo Samosa</div>
+          <div class="meta"><span class="qty">2 Pieces</span>
+            &middot; &#8377;79</div>
+        </div>
+        <div class="side mkt">
+          <div class="lab">Swiggy &middot; Haldiram&#x27;s</div>
+          <div class="name">Samosa Small (200gm) <span class="qty">(200gm)</span></div>
+          <div class="meta">&#8377;61.9</div>
+          
+        </div>
+      </div>
+      <div class="verdicts"><span class="v">keep</span><span class="v">reject_format</span><span class="v">reject_dish</span><span class="v">unsure</span></div>
+    </article>
+    <article class="card">
+      <div class="rid">194</div>
+      <div class="pair">
+        <div class="side bistro">
+          <div class="lab">Bistro &middot; Quick Bites</div>
+          <div class="name">Punjabi Aloo Samosa</div>
+          <div class="meta"><span class="qty">2 Pieces</span>
+            &middot; &#8377;79</div>
+        </div>
+        <div class="side mkt">
+          <div class="lab">Swiggy &middot; Kota Kachori And Falahaar</div>
+          <div class="name">Aloo Samosa</div>
+          <div class="meta">&#8377;35</div>
+          
+        </div>
+      </div>
+      <div class="verdicts"><span class="v">keep</span><span class="v">reject_format</span><span class="v">reject_dish</span><span class="v">unsure</span></div>
+    </article>
+    <article class="card">
+      <div class="rid">202</div>
+      <div class="pair">
+        <div class="side bistro">
+          <div class="lab">Bistro &middot; Sandwich, Rolls &amp; Burgers</div>
+          <div class="name">OG Veg Burger</div>
+          <div class="meta"><span class="qty">Serves 1</span>
+            &middot; &#8377;109</div>
+        </div>
+        <div class="side mkt">
+          <div class="lab">Swiggy &middot; Social</div>
+          <div class="name">Og Veggie Aloolicious Burger</div>
+          <div class="meta">&#8377;329</div>
+          
+        </div>
+      </div>
+      <div class="verdicts"><span class="v">keep</span><span class="v">reject_format</span><span class="v">reject_dish</span><span class="v">unsure</span></div>
+    </article>
+    <article class="card">
+      <div class="rid">209</div>
+      <div class="pair">
+        <div class="side bistro">
+          <div class="lab">Bistro &middot; Desserts</div>
+          <div class="name">Malai Ghewar</div>
+          <div class="meta"><span class="qty">Serves 2</span>
+            &middot; &#8377;219</div>
+        </div>
+        <div class="side mkt">
+          <div class="lab">Swiggy &middot; Maddi sweet center</div>
+          <div class="name">Malai GHEWAR</div>
+          <div class="meta">&#8377;299</div>
+          
+        </div>
+      </div>
+      <div class="verdicts"><span class="v">keep</span><span class="v">reject_format</span><span class="v">reject_dish</span><span class="v">unsure</span></div>
+    </article>
+    <article class="card">
+      <div class="rid">213</div>
+      <div class="pair">
+        <div class="side bistro">
+          <div class="lab">Bistro &middot; Desserts</div>
+          <div class="name">Kesari Rasmalai</div>
+          <div class="meta"><span class="qty">1 Piece</span>
+            &middot; &#8377;69</div>
+        </div>
+        <div class="side mkt">
+          <div class="lab">Swiggy &middot; Kaleva (All Day Diner)</div>
+          <div class="name">Kesar Rasmalai (2 Pc) <span class="qty">(2 Pc)</span></div>
+          <div class="meta">&#8377;135</div>
+          
+        </div>
+      </div>
+      <div class="verdicts"><span class="v">keep</span><span class="v">reject_format</span><span class="v">reject_dish</span><span class="v">unsure</span></div>
+    </article>
+    <article class="card">
+      <div class="rid">216</div>
+      <div class="pair">
+        <div class="side bistro">
+          <div class="lab">Bistro &middot; Desserts</div>
+          <div class="name">Moong Dal Halwa</div>
+          <div class="meta"><span class="qty">Serves 1</span>
+            &middot; &#8377;69</div>
+        </div>
+        <div class="side mkt">
+          <div class="lab">Swiggy &middot; Haldiram&#x27;s</div>
+          <div class="name">Moong Dal Halwa</div>
+          <div class="meta">&#8377;246</div>
+          
+        </div>
+      </div>
+      <div class="verdicts"><span class="v">keep</span><span class="v">reject_format</span><span class="v">reject_dish</span><span class="v">unsure</span></div>
+    </article>
+    <article class="card">
+      <div class="rid">219</div>
+      <div class="pair">
+        <div class="side bistro">
+          <div class="lab">Bistro &middot; Desserts</div>
+          <div class="name">Moong Dal Halwa</div>
+          <div class="meta"><span class="qty">Serves 1</span>
+            &middot; &#8377;69</div>
+        </div>
+        <div class="side mkt">
+          <div class="lab">Swiggy &middot; Dum Safar Biryani</div>
+          <div class="name">Moong Dal Halwa</div>
+          <div class="meta">&#8377;179</div>
+          
+        </div>
+      </div>
+      <div class="verdicts"><span class="v">keep</span><span class="v">reject_format</span><span class="v">reject_dish</span><span class="v">unsure</span></div>
+    </article>
+    <article class="card">
+      <div class="rid">222</div>
+      <div class="pair">
+        <div class="side bistro">
+          <div class="lab">Bistro &middot; Desserts</div>
+          <div class="name">Gulab Jamun</div>
+          <div class="meta"><span class="qty">1 Piece</span>
+            &middot; &#8377;49</div>
+        </div>
+        <div class="side mkt">
+          <div class="lab">Swiggy &middot; Bengal Sweet Corner</div>
+          <div class="name">Gulab Jamun (2 Pcs) <span class="qty">(2 Pcs)</span></div>
+          <div class="meta">&#8377;76</div>
+          
+        </div>
+      </div>
+      <div class="verdicts"><span class="v">keep</span><span class="v">reject_format</span><span class="v">reject_dish</span><span class="v">unsure</span></div>
+    </article>
+    <article class="card">
+      <div class="rid">238</div>
+      <div class="pair">
+        <div class="side bistro">
+          <div class="lab">Bistro &middot; Meals</div>
+          <div class="name">Aloo Pyaaz Paratha</div>
+          <div class="meta"><span class="qty">2 Pieces</span>
+            &middot; &#8377;159</div>
+        </div>
+        <div class="side mkt">
+          <div class="lab">Swiggy &middot; Haldiram&#x27;s</div>
+          <div class="name">Aloo Pyaz Parantha With  Curd - 1 pc <span class="qty">- 1 pc</span></div>
+          <div class="meta">&#8377;140</div>
+          
+        </div>
+      </div>
+      <div class="verdicts"><span class="v">keep</span><span class="v">reject_format</span><span class="v">reject_dish</span><span class="v">unsure</span></div>
+    </article>
+    <article class="card">
+      <div class="rid">240</div>
+      <div class="pair">
+        <div class="side bistro">
+          <div class="lab">Bistro &middot; All Day Breakfast</div>
+          <div class="name">Idli Sambar</div>
+          <div class="meta"><span class="qty">Serves 1</span>
+            &middot; &#8377;139</div>
+        </div>
+        <div class="side mkt">
+          <div class="lab">Swiggy &middot; Haldiram&#x27;s</div>
+          <div class="name">Idli Sambhar - 4 pcs <span class="qty">- 4 pcs</span></div>
+          <div class="meta">&#8377;173</div>
+          <div class="desc">393 kcal</div>
+        </div>
+      </div>
+      <div class="verdicts"><span class="v">keep</span><span class="v">reject_format</span><span class="v">reject_dish</span><span class="v">unsure</span></div>
+    </article>
+</main>
+</body>
+</html>

@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+.DS_Store
+
+# Raw filings are large and redistributable only from the source.
+# Keep the download script in the repo, not the PDFs.
+data/raw/**/*.pdf
+
+# Processed panel and manual entries ARE committed: they are the
+# reproducible artefact a reader needs to verify the notebooks.
+!data/processed/*.csv
+!data/manual/*.csv
